@@ -1,0 +1,4313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <terrain id="1" tif="15,703,404">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(0,0,100,100)</source>
+    </sprite>
+    <average>(99,108,101,255)</average>
+  </terrain>
+  <terrain id="2" tif="23">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(100,0,100,100)</source>
+    </sprite>
+    <average>(136,120,186,255)</average>
+  </terrain>
+  <terrain id="3" tif="17">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,0,100,100)</source>
+    </sprite>
+    <average>(121,49,7,255)</average>
+  </terrain>
+  <terrain id="4" tif="24">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,0,100,100)</source>
+    </sprite>
+    <average>(121,49,7,255)</average>
+  </terrain>
+  <terrain id="5" tif="16">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(400,0,100,100)</source>
+    </sprite>
+    <average>(181,110,0,255)</average>
+  </terrain>
+  <terrain id="6" tif="18">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(500,0,100,100)</source>
+    </sprite>
+    <average>(62,67,62,255)</average>
+  </terrain>
+  <terrain id="7" tif="5">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,0,100,100)</source>
+      <color>(255,255,255,200)</color>
+    </sprite>
+    <average>(28,16,23,255)</average>
+  </terrain>
+  <terrain id="8" tif="10">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,0,100,100)</source>
+    </sprite>
+    <average>(133,78,58,255)</average>
+  </terrain>
+  <terrain id="9" cost="6" tif="4">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,0,100,100)</source>
+    </sprite>
+    <average>(128,129,253,255)</average>
+  </terrain>
+  <terrain id="10" tif="25">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,0,100,100)</source>
+    </sprite>
+    <average>(246,122,0,255)</average>
+  </terrain>
+  <terrain id="11">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,0,100,100)</source>
+    </sprite>
+    <average>(150,29,0,255)</average>
+  </terrain>
+  <terrain id="12" lom="11" tif="1">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(0,100,100,100)</source>
+    </sprite>
+    <average>(110,70,53,255)</average>
+  </terrain>
+  <terrain id="13" lom="12" tif="8">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(100,100,100,100)</source>
+    </sprite>
+    <average>(43,115,11,255)</average>
+  </terrain>
+  <terrain id="14" lom="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,100,100,100)</source>
+    </sprite>
+    <average>(136,78,59,255)</average>
+  </terrain>
+  <terrain id="15" lom="14" tif="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,100,100,100)</source>
+    </sprite>
+    <average>(136,78,59,255)</average>
+  </terrain>
+  <terrain id="16" lom="15" tif="3">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(400,100,100,100)</source>
+    </sprite>
+    <average>(146,103,47,255)</average>
+  </terrain>
+  <terrain id="17" lom="16" tif="6">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(500,100,100,100)</source>
+    </sprite>
+    <average>(244,247,241,255)</average>
+  </terrain>
+  <terrain id="18" lom="17" tif="9,46">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,100,100,100)</source>
+    </sprite>
+    <average>(236,233,101,255)</average>
+  </terrain>
+  <terrain id="19" lom="18" tif="12">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,100,100,100)</source>
+    </sprite>
+    <average>(60,62,189,255)</average>
+  </terrain>
+  <terrain id="20" lom="19" tif="7">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,100,100,100)</source>
+    </sprite>
+    <average>(234,241,241,255)</average>
+  </terrain>
+  <terrain id="21" lom="20" tif="14">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,100,100,100)</source>
+    </sprite>
+    <average>(95,137,96,255)</average>
+  </terrain>
+  <terrain id="22" cost="3" lom="21" tif="11">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,100,100,100)</source>
+      <palette step="140" keys="0-7">
+        <color source="(0,0,254,255)" />
+        <color source="(0,0,243,255)" />
+        <color source="(0,0,231,255)" />
+        <color source="(0,0,219,255)" />
+        <color source="(0,0,211,255)" />
+        <color source="(0,0,199,255)" />
+        <color source="(0,0,187,255)" />
+        <color source="(0,0,179,255)" />
+      </palette>
+    </sprite>
+    <average>(0,0,197,255)</average>
+  </terrain>
+  <terrain id="23" lom="22" tif="2">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,100,100,100)</source>
+    </sprite>
+    <average>(120,98,49,255)</average>
+  </terrain>
+  <terrain id="24" tif="59">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,100,100,100)</source>
+    </sprite>
+    <average>(188,103,29,255)</average>
+  </terrain>
+  <terrain id="25" lom="23" action="13" tif="101,129">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,200,100,100)</source>
+    </sprite>
+    <average>(159,166,159,255)</average>
+  </terrain>
+  <terrain id="26" lom="24" action="13" tif="201,282">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,200,100,100)</source>
+    </sprite>
+    <average>(115,121,114,255)</average>
+  </terrain>
+  <terrain id="27" lom="25" action="13" tif="103,131">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,200,100,100)</source>
+    </sprite>
+    <average>(174,141,105,255)</average>
+  </terrain>
+  <terrain id="28" lom="26" action="13" tif="203,284">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,200,100,100)</source>
+    </sprite>
+    <average>(139,96,71,255)</average>
+  </terrain>
+  <terrain id="29" lom="27" action="13" tif="102,130">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(400,200,100,100)</source>
+    </sprite>
+    <average>(187,187,187,255)</average>
+  </terrain>
+  <terrain id="30" lom="28" action="13" tif="202,283">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,200,100,100)</source>
+    </sprite>
+    <average>(163,163,163,255)</average>
+  </terrain>
+  <terrain id="31" lom="29" tif="207">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(600,200,100,100)</source>
+    </sprite>
+    <average>(109,118,109,255)</average>
+  </terrain>
+  <terrain id="32" lom="51" action="13" tif="231">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(700,200,100,100)</source>
+    </sprite>
+    <average>(149,154,149,255)</average>
+  </terrain>
+  <terrain id="33" lom="52" action="13" tif="238">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(800,200,100,100)</source>
+    </sprite>
+    <average>(135,82,74,255)</average>
+  </terrain>
+  <terrain id="34" lom="53" action="13" tif="239">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(900,200,100,100)</source>
+    </sprite>
+    <average>(171,171,171,255)</average>
+  </terrain>
+  <terrain id="35">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,200,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,500,100,100)</source>
+    </sprite>
+    <average>(177,177,177,255)</average>
+  </terrain>
+  <terrain id="36">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,200,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,500,100,100)</source>
+    </sprite>
+    <average>(164,164,164,255)</average>
+  </terrain>
+  <terrain id="37">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,200,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,500,100,100)</source>
+    </sprite>
+    <average>(165,165,165,255)</average>
+  </terrain>
+  <terrain id="38" lom="30" tif="104">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,300,100,100)</source>
+    </sprite>
+    <average>(154,162,154,255)</average>
+  </terrain>
+  <terrain id="39" lom="31" tif="204">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,300,100,100)</source>
+    </sprite>
+    <average>(134,142,134,255)</average>
+  </terrain>
+  <terrain id="40" lom="32" tif="106">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,300,100,100)</source>
+    </sprite>
+    <average>(150,150,144,255)</average>
+  </terrain>
+  <terrain id="41" lom="33" tif="206">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,300,100,100)</source>
+    </sprite>
+    <average>(141,141,133,255)</average>
+  </terrain>
+  <terrain id="42" tif="105">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(400,300,100,100)</source>
+    </sprite>
+    <average>(172,172,172,255)</average>
+  </terrain>
+  <terrain id="43" tif="205">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,300,100,100)</source>
+    </sprite>
+    <average>(156,156,156,255)</average>
+  </terrain>
+  <terrain id="44" cost="6" lom="36" tif="405">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(600,300,100,100)</source>
+    </sprite>
+    <average>(140,144,140,255)</average>
+  </terrain>
+  <terrain id="45" cost="6" lom="37" tif="406">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(700,300,100,100)</source>
+    </sprite>
+    <average>(141,136,114,255)</average>
+  </terrain>
+  <terrain id="46" cost="6" tif="407">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(800,300,100,100)</source>
+    </sprite>
+    <average>(155,155,155,255)</average>
+  </terrain>
+  <terrain id="47">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,300,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,500,100,100)</source>
+    </sprite>
+    <average>(114,114,114,255)</average>
+  </terrain>
+  <terrain id="48">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,300,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,500,100,100)</source>
+    </sprite>
+    <average>(167,167,167,255)</average>
+  </terrain>
+  <terrain id="49">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,300,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,500,100,100)</source>
+    </sprite>
+    <average>(177,177,177,255)</average>
+  </terrain>
+  <terrain id="50" tif="109,151,152">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,400,100,100)</source>
+    </sprite>
+    <average>(118,126,117,255)</average>
+  </terrain>
+  <terrain id="51" tif="211,317,316">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,400,100,100)</source>
+    </sprite>
+    <average>(147,155,147,255)</average>
+  </terrain>
+  <terrain id="52" tif="115,122,155,154,172,174,170,173,179">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,400,100,100)</source>
+    </sprite>
+    <average>(114,40,21,255)</average>
+  </terrain>
+  <terrain id="53" tif="217,267,318,313,358,362,356,355,364">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,400,100,100)</source>
+    </sprite>
+    <average>(145,59,33,255)</average>
+  </terrain>
+  <terrain id="54" tif="112,153">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(400,400,100,100)</source>
+    </sprite>
+    <average>(163,163,163,255)</average>
+  </terrain>
+  <terrain id="55" tif="214,314">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,400,100,100)</source>
+    </sprite>
+    <average>(176,176,176,255)</average>
+  </terrain>
+  <terrain id="56" tif="107">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(600,400,100,100)</source>
+    </sprite>
+    <average>(142,153,142,255)</average>
+  </terrain>
+  <terrain id="57" lom="34" tif="212">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(700,400,100,100)</source>
+    </sprite>
+    <average>(151,158,151,255)</average>
+  </terrain>
+  <terrain id="58" lom="35" tif="110,123">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(800,400,100,100)</source>
+    </sprite>
+    <average>(126,76,60,255)</average>
+  </terrain>
+  <terrain id="59" lom="36" tif="216,268">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(900,400,100,100)</source>
+    </sprite>
+    <average>(140,85,68,255)</average>
+  </terrain>
+  <terrain id="60" lom="37" tif="108">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,400,100,100)</source>
+    </sprite>
+    <average>(159,159,159,255)</average>
+  </terrain>
+  <terrain id="61" lom="38" tif="215">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,400,100,100)</source>
+    </sprite>
+    <average>(172,172,172,255)</average>
+  </terrain>
+  <terrain id="62" lom="39" action="4" tif="507,523,520">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(0,500,100,100)</source>
+    </sprite>
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(800,2400,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,400,100,100)</source>
+    </sprite>
+    <average>(133,116,109,255)</average>
+  </terrain>
+  <terrain id="63" lom="40" action="4" tif="609,632,635">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(100,500,100,100)</source>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(900,2400,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,400,100,100)</source>
+    </sprite>
+    <average>(131,124,119,255)</average>
+  </terrain>
+  <terrain id="64" lom="41" action="4" tif="513,522,521,533,534,535,536,537">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(200,500,100,100)</source>
+    </sprite>
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,2400,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,400,100,100)</source>
+    </sprite>
+    <average>(137,97,91,255)</average>
+  </terrain>
+  <terrain id="65" lom="42" action="4" tif="615,631,633,644,647,646,645,648">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(300,500,100,100)</source>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,2400,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,400,100,100)</source>
+    </sprite>
+    <average>(136,96,90,255)</average>
+  </terrain>
+  <terrain id="66" lom="43" action="4" tif="510,525">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(400,500,100,100)</source>
+    </sprite>
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(800,2300,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(400,400,100,100)</source>
+    </sprite>
+    <average>(176,145,104,255)</average>
+  </terrain>
+  <terrain id="67" lom="44" action="4" tif="612,634">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(500,500,100,100)</source>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(900,2300,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,400,100,100)</source>
+    </sprite>
+    <average>(171,149,111,255)</average>
+  </terrain>
+  <terrain id="68" lom="45" tif="408">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(600,500,100,100)</source>
+    </sprite>
+    <average>(134,134,134,255)</average>
+  </terrain>
+  <terrain id="69" lom="46" tif="409">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(700,500,100,100)</source>
+    </sprite>
+    <average>(125,125,125,255)</average>
+  </terrain>
+  <terrain id="70">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,500,100,100)</source>
+    </sprite>
+    <average>(162,162,162,255)</average>
+  </terrain>
+  <terrain id="71">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,500,100,100)</source>
+    </sprite>
+    <average>(171,171,171,255)</average>
+  </terrain>
+  <terrain id="72">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,500,100,100)</source>
+    </sprite>
+    <average>(171,171,171,255)</average>
+  </terrain>
+  <terrain id="73">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,500,100,100)</source>
+    </sprite>
+    <average>(178,178,178,255)</average>
+  </terrain>
+  <terrain id="74" action="3" tif="808,807,818">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(0,600,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,400,100,100)</source>
+    </sprite>
+    <average>(123,111,102,255)</average>
+  </terrain>
+  <terrain id="75" action="3" tif="710,707,712">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(100,600,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,400,100,100)</source>
+    </sprite>
+    <average>(146,129,120,255)</average>
+  </terrain>
+  <terrain id="76" lom="47" action="3" tif="814,819,817,843,842,844,845,846">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(200,600,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,400,100,100)</source>
+    </sprite>
+    <average>(116,57,47,255)</average>
+  </terrain>
+  <terrain id="77" action="3" tif="716,717,709,723,722,720,721,724">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(300,600,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,400,100,100)</source>
+    </sprite>
+    <average>(146,72,54,255)</average>
+  </terrain>
+  <terrain id="78" action="3" tif="811,803">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(400,600,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(400,400,100,100)</source>
+    </sprite>
+    <average>(160,132,130,255)</average>
+  </terrain>
+  <terrain id="79" lom="53" action="3" tif="713,706">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(500,600,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,400,100,100)</source>
+    </sprite>
+    <average>(176,139,138,255)</average>
+  </terrain>
+  <terrain id="80" lom="54" tif="809">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(600,600,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(600,400,100,100)</source>
+    </sprite>
+    <average>(134,130,122,255)</average>
+  </terrain>
+  <terrain id="81" lom="55" tif="711">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(700,600,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(700,400,100,100)</source>
+    </sprite>
+    <average>(141,135,128,255)</average>
+  </terrain>
+  <terrain id="82" lom="56" tif="813">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(800,600,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(800,400,100,100)</source>
+    </sprite>
+    <average>(125,80,69,255)</average>
+  </terrain>
+  <terrain id="83" lom="57" tif="715">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(900,600,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(900,400,100,100)</source>
+    </sprite>
+    <average>(136,86,72,255)</average>
+  </terrain>
+  <terrain id="84" lom="58" tif="812">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,600,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,400,100,100)</source>
+    </sprite>
+    <average>(156,129,129,255)</average>
+  </terrain>
+  <terrain id="85" lom="59" tif="714">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,600,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,400,100,100)</source>
+    </sprite>
+    <average>(167,137,137,255)</average>
+  </terrain>
+  <terrain id="86" action="33" lom="60" tif="224">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(0,700,100,100)</source>
+    </sprite>
+    <average>(162,77,56,255)</average>
+  </terrain>
+  <terrain id="87" action="33" lom="61" tif="240">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(100,700,100,100)</source>
+    </sprite>
+    <average>(159,75,55,255)</average>
+  </terrain>
+  <terrain id="88" lom="62" tif="834">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(200,700,100,100)</source>
+    </sprite>
+    <average>(150,104,89,255)</average>
+  </terrain>
+  <terrain id="89" tif="74">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,700,100,100)</source>
+    </sprite>
+    <average>(44,78,16,255)</average>
+  </terrain>
+  <terrain id="90" tif="72">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(400,700,100,100)</source>
+    </sprite>
+    <average>(34,89,13,255)</average>
+  </terrain>
+  <terrain id="91" tif="73">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(500,700,100,100)</source>
+    </sprite>
+    <average>(31,97,12,255)</average>
+  </terrain>
+  <terrain id="92" tif="75">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,700,100,100)</source>
+    </sprite>
+    <average>(58,127,17,255)</average>
+  </terrain>
+  <terrain id="93" tif="76">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,700,100,100)</source>
+    </sprite>
+    <average>(59,132,18,255)</average>
+  </terrain>
+  <terrain id="94" tif="77">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,700,100,100)</source>
+    </sprite>
+    <average>(48,130,18,255)</average>
+  </terrain>
+  <terrain id="95" tif="78">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,700,100,100)</source>
+    </sprite>
+    <average>(58,155,21,255)</average>
+  </terrain>
+  <terrain id="96" action="33" tif="79">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,700,100,100)</source>
+    </sprite>
+    <average>(114,98,94,255)</average>
+  </terrain>
+  <terrain id="97" action="33" tif="80">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,700,100,100)</source>
+    </sprite>
+    <average>(108,93,91,255)</average>
+  </terrain>
+  <terrain id="98" lom="63" tif="226,822,830">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(0,800,100,100)</source>
+    </sprite>
+    <average>(52,105,23,255)</average>
+  </terrain>
+  <terrain id="99" lom="64" tif="823">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(100,800,100,100)</source>
+    </sprite>
+    <average>(55,110,25,255)</average>
+  </terrain>
+  <terrain id="100" lom="65" tif="230">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(200,800,100,100)</source>
+    </sprite>
+    <average>(41,114,23,255)</average>
+  </terrain>
+  <terrain id="101" lom="66" tif="824">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(300,800,100,100)</source>
+    </sprite>
+    <average>(87,60,40,255)</average>
+  </terrain>
+  <terrain id="102" lom="67" tif="825">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(400,800,100,100)</source>
+    </sprite>
+    <average>(95,65,48,255)</average>
+  </terrain>
+  <terrain id="103" lom="68" tif="831">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(500,800,100,100)</source>
+    </sprite>
+    <average>(72,63,35,255)</average>
+  </terrain>
+  <terrain id="104" lom="69" tif="208,235">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(600,800,100,100)</source>
+    </sprite>
+    <average>(174,174,174,255)</average>
+  </terrain>
+  <terrain id="105" lom="70" tif="820">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(700,800,100,100)</source>
+    </sprite>
+    <average>(190,185,32,255)</average>
+  </terrain>
+  <terrain id="106" lom="71" tif="821">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(800,800,100,100)</source>
+    </sprite>
+    <average>(150,150,37,255)</average>
+  </terrain>
+  <terrain id="107" tif="236">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(900,800,100,100)</source>
+    </sprite>
+    <average>(174,186,33,255)</average>
+  </terrain>
+  <terrain id="108" tif="237">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,800,100,100)</source>
+    </sprite>
+    <average>(137,159,36,255)</average>
+  </terrain>
+  <terrain id="109" tif="71">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,800,100,100)</source>
+    </sprite>
+    <average>(54,115,50,255)</average>
+  </terrain>
+  <terrain id="110">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,800,100,100)</source>
+    </sprite>
+    <average>(9,109,6,255)</average>
+  </terrain>
+  <terrain id="111" lom="338" tif="230">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(200,800,100,100)</source>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(0,900,100,100)</source>
+    </sprite>
+    <average>(149,81,22,255)</average>
+  </terrain>
+  <terrain id="112" lom="339" tif="230">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(200,800,100,100)</source>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(100,900,100,100)</source>
+    </sprite>
+    <average>(149,163,22,255)</average>
+  </terrain>
+  <terrain id="113" lom="72" tif="223">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(200,900,100,100)</source>
+    </sprite>
+    <average>(197,185,180,255)</average>
+  </terrain>
+  <terrain id="114" lom="73" tif="832">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(300,900,100,100)</source>
+    </sprite>
+    <average>(212,109,48,255)</average>
+  </terrain>
+  <terrain id="115" lom="74" tif="410">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(400,900,100,100)</source>
+    </sprite>
+    <average>(132,75,57,255)</average>
+  </terrain>
+  <terrain id="116" lom="75" tif="411">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(500,900,100,100)</source>
+    </sprite>
+    <average>(131,74,56,255)</average>
+  </terrain>
+  <terrain id="117" lom="76" tif="508">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(600,900,100,100)</source>
+    </sprite>
+    <average>(194,213,179,255)</average>
+  </terrain>
+  <terrain id="118" lom="77" tif="604">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(700,900,100,100)</source>
+    </sprite>
+    <average>(194,213,179,255)</average>
+  </terrain>
+  <terrain id="119" lom="78" action="31" tif="509">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(800,900,100,100)</source>
+    </sprite>
+    <average>(106,138,89,255)</average>
+  </terrain>
+  <terrain id="120" lom="79" action="31" tif="605">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(900,900,100,100)</source>
+    </sprite>
+    <average>(109,140,89,255)</average>
+  </terrain>
+  <terrain id="121">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,900,100,100)</source>
+    </sprite>
+    <average>(0,0,0,255)</average>
+  </terrain>
+  <terrain id="122">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,900,100,100)</source>
+    </sprite>
+    <average>(242,243,241,255)</average>
+  </terrain>
+  <terrain id="123" lom="80" action="6" tif="19">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(0,1000,100,100)</source>
+    </sprite>
+    <average>(93,92,90,255)</average>
+  </terrain>
+  <terrain id="124" lom="81" action="6" tif="22">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(100,1000,100,100)</source>
+    </sprite>
+    <average>(88,87,86,255)</average>
+  </terrain>
+  <terrain id="125" lom="82" action="6" tif="20">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,1000,100,100)</source>
+    </sprite>
+    <average>(85,83,81,255)</average>
+  </terrain>
+  <terrain id="126" lom="83" action="6" tif="21">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,1000,100,100)</source>
+    </sprite>
+    <average>(85,83,81,255)</average>
+  </terrain>
+  <terrain id="127" lom="84" action="5" tif="826">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(400,1000,100,100)</source>
+    </sprite>
+    <average>(98,98,97,255)</average>
+  </terrain>
+  <terrain id="128" lom="85" action="5" tif="829">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(500,1000,100,100)</source>
+    </sprite>
+    <average>(99,98,98,255)</average>
+  </terrain>
+  <terrain id="129" lom="86" action="5" tif="827">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(600,1000,100,100)</source>
+    </sprite>
+    <average>(81,79,76,255)</average>
+  </terrain>
+  <terrain id="130" lom="87" action="5" tif="828">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(700,1000,100,100)</source>
+    </sprite>
+    <average>(83,81,78,255)</average>
+  </terrain>
+  <terrain id="131" lom="88" tif="401">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(0,1100,100,100)</source>
+    </sprite>
+    <average>(179,218,218,255)</average>
+  </terrain>
+  <terrain id="132" lom="89" tif="412">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(100,1100,100,100)</source>
+      <palette step="140" keys="0-5">
+        <color source="(240,240,250,255)" />
+        <color source="(216,216,228,255)" />
+        <color source="(186,186,198,255)" />
+        <color source="(154,154,168,255)" />
+        <color source="(122,122,132,255)" />
+        <color source="(94,94,106,255)" />
+      </palette>
+    </sprite>
+    <average>(172,172,181,255)</average>
+  </terrain>
+  <terrain id="133" lom="90" tif="601">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(200,1100,100,100)</source>
+      <palette step="140" keys="0-5">
+        <color source="(240,240,250,255)" />
+        <color source="(216,216,228,255)" />
+        <color source="(186,186,198,255)" />
+        <color source="(154,154,168,255)" />
+        <color source="(122,122,132,255)" />
+        <color source="(94,94,106,255)" />
+      </palette>
+    </sprite>
+    <average>(175,175,186,255)</average>
+  </terrain>
+  <terrain id="134" lom="91" tif="403">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(300,1100,100,100)</source>
+      <palette step="80" keys="0-5">
+        <color source="(240,240,250,255)" />
+        <color source="(216,216,228,255)" />
+        <color source="(186,186,198,255)" />
+        <color source="(154,154,168,255)" />
+        <color source="(122,122,132,255)" />
+        <color source="(94,94,106,255)" />
+      </palette>
+    </sprite>
+    <average>(179,179,190,255)</average>
+  </terrain>
+  <terrain id="135" lom="92" tif="402">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(400,1100,100,100)</source>
+      <palette step="80" keys="0-15,15-0">
+        <color source="(255,247,0,255)" />
+        <color source="(255,227,0,255)" />
+        <color source="(255,211,0,255)" />
+        <color source="(255,195,0,255)" />
+        <color source="(255,179,0,255)" />
+        <color source="(255,163,0,255)" />
+        <color source="(255,147,0,255)" />
+        <color source="(255,131,0,255)" />
+        <color source="(255,115,0,255)" />
+        <color source="(255,95,0,255)" />
+        <color source="(255,79,0,255)" />
+        <color source="(255,63,0,255)" />
+        <color source="(255,47,0,255)" />
+        <color source="(255,31,0,255)" />
+        <color source="(255,15,0,255)" />
+        <color source="(255,0,0,255)" />
+      </palette>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(500,1100,100,100)</source>
+      <palette step="80" keys="0-15,15-0">
+        <color source="(255,247,0,255)" />
+        <color source="(255,227,0,255)" />
+        <color source="(255,211,0,255)" />
+        <color source="(255,195,0,255)" />
+        <color source="(255,179,0,255)" />
+        <color source="(255,163,0,255)" />
+        <color source="(255,147,0,255)" />
+        <color source="(255,131,0,255)" />
+        <color source="(255,115,0,255)" />
+        <color source="(255,95,0,255)" />
+        <color source="(255,79,0,255)" />
+        <color source="(255,63,0,255)" />
+        <color source="(255,47,0,255)" />
+        <color source="(255,31,0,255)" />
+        <color source="(255,15,0,255)" />
+        <color source="(255,0,0,255)" />
+      </palette>
+    </sprite>
+    <average>(255,145,0,255)</average>
+  </terrain>
+  <terrain id="136" lom="93" tif="606">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(500,1100,100,100)</source>
+      <palette step="80" keys="0-15,15-0">
+        <color source="(255,247,0,255)" />
+        <color source="(255,227,0,255)" />
+        <color source="(255,211,0,255)" />
+        <color source="(255,195,0,255)" />
+        <color source="(255,179,0,255)" />
+        <color source="(255,163,0,255)" />
+        <color source="(255,147,0,255)" />
+        <color source="(255,131,0,255)" />
+        <color source="(255,115,0,255)" />
+        <color source="(255,95,0,255)" />
+        <color source="(255,79,0,255)" />
+        <color source="(255,63,0,255)" />
+        <color source="(255,47,0,255)" />
+        <color source="(255,31,0,255)" />
+        <color source="(255,15,0,255)" />
+        <color source="(255,0,0,255)" />
+      </palette>
+    </sprite>
+    <average>(255,144,0,255)</average>
+  </terrain>
+  <terrain id="137">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,1100,100,100)</source>
+    </sprite>
+    <average>(155,34,0,255)</average>
+  </terrain>
+  <terrain id="138" action="33">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,1100,100,100)</source>
+    </sprite>
+    <average>(117,118,117,255)</average>
+  </terrain>
+  <terrain id="139" lom="94" action="13" tif="114,150">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,1200,100,100)</source>
+    </sprite>
+    <average>(185,185,185,255)</average>
+  </terrain>
+  <terrain id="140" lom="95" action="13" tif="263,310">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,1200,100,100)</source>
+    </sprite>
+    <average>(177,177,177,255)</average>
+  </terrain>
+  <terrain id="141" lom="96" tif="128">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,1200,100,100)</source>
+    </sprite>
+    <average>(172,172,172,255)</average>
+  </terrain>
+  <terrain id="142" lom="97" tif="271">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,1200,100,100)</source>
+    </sprite>
+    <average>(167,167,167,255)</average>
+  </terrain>
+  <terrain id="143" lom="98" action="13" tif="272">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(400,1200,100,100)</source>
+    </sprite>
+    <average>(176,176,176,255)</average>
+  </terrain>
+  <terrain id="144" lom="99" tif="273">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,1200,100,100)</source>
+    </sprite>
+    <average>(171,171,171,255)</average>
+  </terrain>
+  <terrain id="145" lom="100" action="13" tif="120,148">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(600,1200,100,100)</source>
+    </sprite>
+    <average>(114,67,42,255)</average>
+  </terrain>
+  <terrain id="146" lom="101" action="13" tif="210,308">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(700,1200,100,100)</source>
+    </sprite>
+    <average>(110,66,40,255)</average>
+  </terrain>
+  <terrain id="147" lom="102" tif="117">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(800,1200,100,100)</source>
+    </sprite>
+    <average>(106,61,37,255)</average>
+  </terrain>
+  <terrain id="148" lom="103" tif="247">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(900,1200,100,100)</source>
+    </sprite>
+    <average>(103,61,36,255)</average>
+  </terrain>
+  <terrain id="149" lom="104" action="13" tif="209">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,1200,100,100)</source>
+    </sprite>
+    <average>(110,64,39,255)</average>
+  </terrain>
+  <terrain id="150" lom="105" tif="249">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,1200,100,100)</source>
+    </sprite>
+    <average>(103,60,37,255)</average>
+  </terrain>
+  <terrain id="151" lom="106" action="13" tif="118,149">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,1300,100,100)</source>
+    </sprite>
+    <average>(180,180,180,255)</average>
+  </terrain>
+  <terrain id="152" lom="107" action="13" tif="245,312">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,1300,100,100)</source>
+    </sprite>
+    <average>(172,172,172,255)</average>
+  </terrain>
+  <terrain id="153" lom="108" tif="127">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,1300,100,100)</source>
+    </sprite>
+    <average>(166,166,166,255)</average>
+  </terrain>
+  <terrain id="154" lom="109" tif="270">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,1300,100,100)</source>
+    </sprite>
+    <average>(161,161,161,255)</average>
+  </terrain>
+  <terrain id="155" lom="110" action="13" tif="250">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(400,1300,100,100)</source>
+    </sprite>
+    <average>(176,176,176,255)</average>
+  </terrain>
+  <terrain id="156" lom="111" tif="277">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,1300,100,100)</source>
+    </sprite>
+    <average>(165,165,165,255)</average>
+  </terrain>
+  <terrain id="157" lom="112" action="13" tif="111,146">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(600,1300,100,100)</source>
+    </sprite>
+    <average>(93,94,93,255)</average>
+  </terrain>
+  <terrain id="158" lom="113" action="13" tif="251,311">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(700,1300,100,100)</source>
+    </sprite>
+    <average>(84,86,85,255)</average>
+  </terrain>
+  <terrain id="159" lom="114" action="13" tif="213">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(800,1300,100,100)</source>
+    </sprite>
+    <average>(84,85,84,255)</average>
+  </terrain>
+  <terrain id="160" lom="115" tif="366">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(900,1300,100,100)</source>
+    </sprite>
+    <average>(93,94,93,255)</average>
+  </terrain>
+  <terrain id="161" lom="116" tif="365">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,1300,100,100)</source>
+    </sprite>
+    <average>(88,89,88,255)</average>
+  </terrain>
+  <terrain id="162" lom="117">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,1300,100,100)</source>
+    </sprite>
+    <average>(88,89,88,255)</average>
+  </terrain>
+  <terrain id="163" action="33" lom="118" tif="246">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(0,1400,100,100)</source>
+    </sprite>
+    <average>(115,116,115,255)</average>
+  </terrain>
+  <terrain id="164" lom="119" tif="257">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,1400,100,100)</source>
+    </sprite>
+    <average>(73,75,72,255)</average>
+  </terrain>
+  <terrain id="165" lom="120" tif="113">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,1400,100,100)</source>
+    </sprite>
+    <average>(181,181,181,255)</average>
+  </terrain>
+  <terrain id="166" lom="121" tif="262">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,1400,100,100)</source>
+    </sprite>
+    <average>(181,181,181,255)</average>
+  </terrain>
+  <terrain id="167" lom="122" tif="413">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(400,1400,100,100)</source>
+    </sprite>
+    <average>(147,14,14,255)</average>
+  </terrain>
+  <terrain id="168" lom="123" tif="260">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,1400,100,100)</source>
+    </sprite>
+    <average>(175,175,175,255)</average>
+  </terrain>
+  <terrain id="169" action="33" lom="124" tif="266">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(600,1400,100,100)</source>
+    </sprite>
+    <average>(161,161,161,255)</average>
+  </terrain>
+  <terrain id="170" cost="6" lom="125" tif="417">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(700,1400,100,100)</source>
+    </sprite>
+    <average>(112,112,112,255)</average>
+  </terrain>
+  <terrain id="171">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,1400,100,100)</source>
+    </sprite>
+    <average>(167,93,6,255)</average>
+  </terrain>
+  <terrain id="172" lom="127" tif="614">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(900,1400,100,100)</source>
+    </sprite>
+    <average>(167,93,6,255)</average>
+  </terrain>
+  <terrain id="173" lom="128" tif="415">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,1400,100,100)</source>
+    </sprite>
+    <average>(197,197,197,255)</average>
+  </terrain>
+  <terrain id="174" action="33" lom="129" tif="259">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,1400,100,100)</source>
+    </sprite>
+    <average>(140,68,9,255)</average>
+  </terrain>
+  <terrain id="175" lom="130" tif="31">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(0,1500,100,100)</source>
+    </sprite>
+    <average>(124,77,49,255)</average>
+  </terrain>
+  <terrain id="176" lom="131" tif="29">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(100,1500,100,100)</source>
+    </sprite>
+    <average>(207,207,207,255)</average>
+  </terrain>
+  <terrain id="177" cost="3" lom="132" tif="26">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,1500,100,100)</source>
+    </sprite>
+    <average>(159,173,254,255)</average>
+  </terrain>
+  <terrain id="178" lom="133" tif="32">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,1500,100,100)</source>
+    </sprite>
+    <average>(154,154,154,255)</average>
+  </terrain>
+  <terrain id="179" lom="134" tif="30">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(400,1500,100,100)</source>
+    </sprite>
+    <average>(81,83,82,255)</average>
+  </terrain>
+  <terrain id="180" cost="3" lom="135" tif="28">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(500,1500,100,100)</source>
+      <palette step="140" keys="0-7">
+        <color source="(0,0,254,255)" />
+        <color source="(0,0,243,255)" />
+        <color source="(0,0,231,255)" />
+        <color source="(0,0,219,255)" />
+        <color source="(0,0,211,255)" />
+        <color source="(0,0,199,255)" />
+        <color source="(0,0,187,255)" />
+        <color source="(0,0,179,255)" />
+      </palette>
+    </sprite>
+    <average>(88,102,35,255)</average>
+  </terrain>
+  <terrain id="181" lom="136" action="6" tif="27">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,1500,100,100)</source>
+    </sprite>
+    <average>(90,52,29,255)</average>
+  </terrain>
+  <terrain id="182" lom="137" tif="33">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,1500,100,100)</source>
+    </sprite>
+    <average>(48,92,54,255)</average>
+  </terrain>
+  <terrain id="183" lom="138" tif="36">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,1500,100,100)</source>
+    </sprite>
+    <average>(77,87,76,255)</average>
+  </terrain>
+  <terrain id="184" lom="139" tif="38">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,1500,100,100)</source>
+    </sprite>
+    <average>(72,70,67,255)</average>
+  </terrain>
+  <terrain id="185" lom="140" tif="39">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,1500,100,100)</source>
+    </sprite>
+    <average>(86,61,30,255)</average>
+  </terrain>
+  <terrain id="186" lom="141" tif="37">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,1500,100,100)</source>
+    </sprite>
+    <average>(222,220,186,255)</average>
+  </terrain>
+  <terrain id="187" lom="142" tif="610">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(0,1600,100,100)</source>
+      <color>(255,255,255,100)</color>
+    </sprite>
+    <average>(84,98,88,255)</average>
+  </terrain>
+  <terrain id="188" lom="143" tif="258">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,1600,100,100)</source>
+    </sprite>
+    <average>(204,201,120,255)</average>
+  </terrain>
+  <terrain id="189" lom="144" tif="125">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,1600,100,100)</source>
+    </sprite>
+    <average>(177,177,177,255)</average>
+  </terrain>
+  <terrain id="190" lom="145" tif="276">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,1600,100,100)</source>
+    </sprite>
+    <average>(177,177,177,255)</average>
+  </terrain>
+  <terrain id="191" lom="146" tif="502">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(400,1600,100,100)</source>
+    </sprite>
+    <average>(184,184,184,255)</average>
+  </terrain>
+  <terrain id="192" lom="147" tif="624">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(500,1600,100,100)</source>
+    </sprite>
+    <average>(184,184,184,255)</average>
+  </terrain>
+  <terrain id="193" lom="148" tif="611">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(600,1600,100,100)</source>
+    </sprite>
+    <average>(238,238,238,255)</average>
+  </terrain>
+  <terrain id="194" lom="149" tif="119">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(700,1600,100,100)</source>
+    </sprite>
+    <average>(164,164,164,255)</average>
+  </terrain>
+  <terrain id="195" lom="150" tif="254">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(800,1600,100,100)</source>
+    </sprite>
+    <average>(164,164,164,255)</average>
+  </terrain>
+  <terrain id="196" lom="151" tif="424">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(900,1600,100,100)</source>
+    </sprite>
+    <average>(179,151,0,255)</average>
+  </terrain>
+  <terrain id="197" lom="152" tif="505">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,1600,100,100)</source>
+    </sprite>
+    <average>(157,81,108,255)</average>
+  </terrain>
+  <terrain id="198" lom="153" tif="620">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,1600,100,100)</source>
+    </sprite>
+    <average>(157,81,108,255)</average>
+  </terrain>
+  <terrain id="199" lom="154" tif="835">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(0,1700,100,100)</source>
+    </sprite>
+    <average>(32,103,41,255)</average>
+  </terrain>
+  <terrain id="200" lom="155" tif="836">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(100,1700,100,100)</source>
+    </sprite>
+    <average>(31,99,40,255)</average>
+  </terrain>
+  <terrain id="201" lom="156" tif="837">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(200,1700,100,100)</source>
+    </sprite>
+    <average>(30,96,40,255)</average>
+  </terrain>
+  <terrain id="202" lom="157" tif="835">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(0,1700,100,100)</source>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(300,1700,100,100)</source>
+    </sprite>
+    <average>(150,193,170,255)</average>
+  </terrain>
+  <terrain id="203" lom="158" tif="836">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(100,1700,100,100)</source>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(400,1700,100,100)</source>
+    </sprite>
+    <average>(150,192,171,255)</average>
+  </terrain>
+  <terrain id="204" lom="159" tif="837">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(200,1700,100,100)</source>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(500,1700,100,100)</source>
+    </sprite>
+    <average>(150,191,170,255)</average>
+  </terrain>
+  <terrain id="205" lom="160" tif="265">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(600,1700,100,100)</source>
+    </sprite>
+    <average>(53,90,17,255)</average>
+  </terrain>
+  <terrain id="206" lom="161" tif="420">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(700,1700,100,100)</source>
+    </sprite>
+    <average>(225,42,42,255)</average>
+  </terrain>
+  <terrain id="207" lom="162" tif="421">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(800,1700,100,100)</source>
+    </sprite>
+    <average>(140,136,0,255)</average>
+  </terrain>
+  <terrain id="208" lom="163" tif="269">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(900,1700,100,100)</source>
+    </sprite>
+    <average>(81,50,32,255)</average>
+  </terrain>
+  <terrain id="209" lom="164" tif="416">
+    <!--
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,1700,100,100)</source>
+    </sprite>
+    -->
+    <sprite order="3">
+      <texture>Zrikz\Terrain\FountainPool</texture>
+      <source>(0,0,275,100)</source>
+      <frames step="300" keys="0-4">
+        <frame>(0,0,100,100)</frame>
+        <frame>(100,0,100,100)</frame>
+        <frame>(200,0,100,100)</frame>
+        <frame>(300,0,100,100)</frame>
+        <frame>(400,0,100,100)</frame>
+      </frames>
+    </sprite>
+    <average>(150,206,184,255)</average>
+  </terrain>
+  <terrain id="210" lom="165" tif="248">
+    <!--
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,1700,100,100)</source>
+    </sprite>
+    -->
+    <sprite order="4">
+      <texture>Zrikz\Terrain\Fountain</texture>
+      <source>(0,0,275,100)</source>
+      <frames step="300" keys="0-4">
+        <frame>(0,0,100,100)</frame>
+        <frame>(100,0,100,100)</frame>
+        <frame>(200,0,100,100)</frame>
+        <frame>(300,0,100,100)</frame>
+        <frame>(400,0,100,100)</frame>
+      </frames>
+    </sprite>
+    <average>(127,155,136,255)</average>
+  </terrain>
+  <terrain id="211" lom="166" tif="503">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(0,1800,100,100)</source>
+    </sprite>
+    <average>(137,137,133,255)</average>
+  </terrain>
+  <terrain id="212" lom="167" tif="622">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(100,1800,100,100)</source>
+    </sprite>
+    <average>(137,137,133,255)</average>
+  </terrain>
+  <terrain id="213" lom="168" tif="243">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(200,1800,100,100)</source>
+    </sprite>
+    <average>(145,145,145,255)</average>
+  </terrain>
+  <terrain id="214" lom="169" tif="242">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,1800,100,100)</source>
+    </sprite>
+    <average>(143,143,143,255)</average>
+  </terrain>
+  <terrain id="215" lom="170" tif="241">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(400,1800,100,100)</source>
+    </sprite>
+    <average>(124,124,124,255)</average>
+  </terrain>
+  <terrain id="216" lom="171" tif="422">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(500,1800,100,100)</source>
+    </sprite>
+    <average>(89,58,36,255)</average>
+  </terrain>
+  <terrain id="217" lom="172" tif="419">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(600,1800,100,100)</source>
+    </sprite>
+    <average>(59,83,27,255)</average>
+  </terrain>
+  <terrain id="218" lom="173" tif="414">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(700,1800,100,100)</source>
+    </sprite>
+    <average>(92,92,92,255)</average>
+  </terrain>
+  <terrain id="219" lom="174" tif="804">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(800,1800,100,100)</source>
+    </sprite>
+    <average>(63,61,58,255)</average>
+  </terrain>
+  <terrain id="220" lom="175" tif="511">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(900,1800,100,100)</source>
+    </sprite>
+    <average>(176,176,176,255)</average>
+  </terrain>
+  <terrain id="221" lom="176" tif="613">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,1800,100,100)</source>
+    </sprite>
+    <average>(175,175,175,255)</average>
+  </terrain>
+  <terrain id="222" lom="177" tif="806">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,1800,100,100)</source>
+    </sprite>
+    <average>(216,216,216,255)</average>
+  </terrain>
+  <terrain id="223" lom="178" action="13" tif="124,147,383">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,1900,100,100)</source>
+    </sprite>
+    <average>(51,103,28,255)</average>
+  </terrain>
+  <terrain id="224" lom="179" action="13" tif="280,309,384">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,1900,100,100)</source>
+    </sprite>
+    <average>(48,96,26,255)</average>
+  </terrain>
+  <terrain id="225" lom="180" action="13" tif="275,385">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(200,1900,100,100)</source>
+    </sprite>
+    <average>(29,95,23,255)</average>
+  </terrain>
+  <terrain id="226" lom="181" tif="126,386">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(300,1900,100,100)</source>
+    </sprite>
+    <average>(49,101,29,255)</average>
+  </terrain>
+  <terrain id="227" lom="182" tif="274,387">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(400,1900,100,100)</source>
+    </sprite>
+    <average>(49,97,28,255)</average>
+  </terrain>
+  <terrain id="228" lom="183" tif="281">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,1900,100,100)</source>
+    </sprite>
+    <average>(33,98,26,255)</average>
+  </terrain>
+  <terrain id="229" lom="184" action="4" tif="501">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(600,1900,100,100)</source>
+    </sprite>
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,2300,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,400,100,100)</source>
+    </sprite>
+    <average>(165,127,19,255)</average>
+  </terrain>
+  <terrain id="230" lom="185" action="4" tif="621">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(700,1900,100,100)</source>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,2300,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,400,100,100)</source>
+    </sprite>
+    <average>(169,129,23,255)</average>
+  </terrain>
+  <terrain id="231" lom="186" action="3" tif="702">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(800,1900,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,400,100,100)</source>
+    </sprite>
+    <average>(124,71,36,255)</average>
+  </terrain>
+  <terrain id="232" lom="187" action="3" tif="801">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(900,1900,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,400,100,100)</source>
+    </sprite>
+    <average>(145,80,41,255)</average>
+  </terrain>
+  <terrain id="233" lom="188" tif="701">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,1900,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(600,400,100,100)</source>
+    </sprite>
+    <average>(137,128,109,255)</average>
+  </terrain>
+  <terrain id="234" lom="189" tif="802">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,1900,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(700,400,100,100)</source>
+    </sprite>
+    <average>(146,132,116,255)</average>
+  </terrain>
+  <terrain id="235" lom="190" tif="618">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2000,100,100)</source>
+    </sprite>
+    <average>(99,243,219,255)</average>
+  </terrain>
+  <terrain id="236" lom="191" tif="619">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2000,100,100)</source>
+    </sprite>
+    <average>(121,12,10,255)</average>
+  </terrain>
+  <terrain id="237" lom="192" action="2" tif="512">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(200,2000,100,100)</source>
+    </sprite>
+    <average>(210,135,82,255)</average>
+  </terrain>
+  <terrain id="238" lom="193" action="2" tif="616">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(300,2000,100,100)</source>
+    </sprite>
+    <average>(210,134,82,255)</average>
+  </terrain>
+  <terrain id="239" lom="194" tif="121">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(400,2000,100,100)</source>
+    </sprite>
+    <average>(136,87,52,255)</average>
+  </terrain>
+  <terrain id="240" lom="195">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(500,2000,100,100)</source>
+    </sprite>
+    <average>(137,89,48,255)</average>
+  </terrain>
+  <terrain id="241" lom="196" action="1" tif="426">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(600,2000,100,100)</source>
+    </sprite>
+    <average>(181,114,72,255)</average>
+  </terrain>
+  <terrain id="242" lom="197" tif="423">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(700,2000,100,100)</source>
+    </sprite>
+    <average>(213,249,232,255)</average>
+  </terrain>
+  <terrain id="243" lom="198" tif="528">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(800,2000,100,100)</source>
+    </sprite>
+    <average>(100,67,52,255)</average>
+  </terrain>
+  <terrain id="244" lom="199" tif="639">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(900,2000,100,100)</source>
+    </sprite>
+    <average>(101,68,51,255)</average>
+  </terrain>
+  <terrain id="245" lom="200" tif="504">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,2000,100,100)</source>
+    </sprite>
+    <average>(169,88,101,255)</average>
+  </terrain>
+  <terrain id="246" lom="201" tif="623">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,2000,100,100)</source>
+    </sprite>
+    <average>(159,139,160,255)</average>
+  </terrain>
+  <terrain id="247" tif="847">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,2000,100,100)</source>
+    </sprite>
+    <average>(76,135,27,255)</average>
+  </terrain>
+  <terrain id="248" action="33" lom="202" tif="132">
+    <sprite order="5" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2100,100,100)</source>
+    </sprite>
+    <average>(192,186,0,255)</average>
+  </terrain>
+  <terrain id="249" action="33" lom="203" tif="256">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2100,100,100)</source>
+    </sprite>
+    <average>(189,183,0,255)</average>
+  </terrain>
+  <terrain id="250" lom="204" tif="425">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(200,2100,100,100)</source>
+    </sprite>
+    <average>(128,90,75,255)</average>
+  </terrain>
+  <terrain id="251" lom="205" tif="805">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(300,2100,100,100)</source>
+    </sprite>
+    <average>(126,95,59,255)</average>
+  </terrain>
+  <terrain id="252" lom="206" tif="418">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(400,2100,100,100)</source>
+    </sprite>
+    <average>(101,102,101,255)</average>
+  </terrain>
+  <terrain id="253" lom="207" action="5" tif="833">
+    <sprite order="1" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(500,2100,100,100)</source>
+    </sprite>
+    <average>(90,91,90,255)</average>
+  </terrain>
+  <terrain id="254" lom="208" action="6" tif="35">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,2100,100,100)</source>
+    </sprite>
+    <average>(136,97,56,255)</average>
+  </terrain>
+  <terrain id="255" lom="209" action="2" tif="427,637">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(700,2100,100,100)</source>
+      <offset>(-1,-28)</offset>
+    </sprite>
+    <average>(193,120,77,255)</average>
+  </terrain>
+  <terrain id="256" lom="210" action="1" tif="428">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(800,2100,100,100)</source>
+      <offset>(0,-15)</offset>
+    </sprite>
+    <average>(191,118,76,255)</average>
+  </terrain>
+  <terrain id="257" lom="211" action="2" tif="429,526">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(900,2100,100,100)</source>
+      <offset>(-10,-10)</offset>
+    </sprite>
+    <average>(175,107,67,255)</average>
+  </terrain>
+  <terrain id="258" lom="214" action="13" tif="139,137">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2200,100,100)</source>
+    </sprite>
+    <average>(244,189,149,255)</average>
+  </terrain>
+  <terrain id="259" lom="215" action="13" tif="285,286">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2200,100,100)</source>
+    </sprite>
+    <average>(243,179,138,255)</average>
+  </terrain>
+  <terrain id="260" lom="216" action="13" tif="141">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,2200,100,100)</source>
+    </sprite>
+    <average>(235,173,130,255)</average>
+  </terrain>
+  <terrain id="261" lom="217" tif="289">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,2200,100,100)</source>
+    </sprite>
+    <average>(234,167,122,255)</average>
+  </terrain>
+  <terrain id="262" lom="218" action="13" tif="290">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(400,2200,100,100)</source>
+    </sprite>
+    <average>(244,182,142,255)</average>
+  </terrain>
+  <terrain id="263" lom="219" tif="291">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,2200,100,100)</source>
+    </sprite>
+    <average>(237,171,129,255)</average>
+  </terrain>
+  <terrain id="264" lom="220" tif="40">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,2200,100,100)</source>
+    </sprite>
+    <average>(82,83,81,255)</average>
+  </terrain>
+  <terrain id="265" lom="221" tif="41">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,2200,100,100)</source>
+    </sprite>
+    <average>(224,168,92,255)</average>
+  </terrain>
+  <terrain id="266" lom="222" tif="278">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(800,2200,100,100)</source>
+    </sprite>
+    <average>(62,111,62,255)</average>
+  </terrain>
+  <terrain id="267">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,2200,100,100)</source>
+    </sprite>
+    <average>(126,70,38,255)</average>
+  </terrain>
+  <terrain id="268">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,2200,100,100)</source>
+    </sprite>
+    <average>(123,68,36,255)</average>
+  </terrain>
+  <terrain id="269" tif="61">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,2200,100,100)</source>
+    </sprite>
+    <average>(153,107,104,255)</average>
+  </terrain>
+  <terrain id="270" tif="60">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,2200,100,100)</source>
+    </sprite>
+    <average>(151,106,102,255)</average>
+  </terrain>
+  <terrain id="271" action="13" tif="133">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2300,100,100)</source>
+    </sprite>
+    <average>(238,184,145,255)</average>
+  </terrain>
+  <terrain id="272" action="13" tif="298">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2300,100,100)</source>
+    </sprite>
+    <average>(235,176,136,255)</average>
+  </terrain>
+  <terrain id="273" action="13" tif="143">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,2300,100,100)</source>
+    </sprite>
+    <average>(238,184,145,255)</average>
+  </terrain>
+  <terrain id="274" action="13" tif="287">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,2300,100,100)</source>
+    </sprite>
+    <average>(235,176,136,255)</average>
+  </terrain>
+  <terrain id="275" action="13" tif="135">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(400,2300,100,100)</source>
+    </sprite>
+    <average>(238,185,145,255)</average>
+  </terrain>
+  <terrain id="276" action="13" tif="299">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,2300,100,100)</source>
+    </sprite>
+    <average>(236,176,136,255)</average>
+  </terrain>
+  <terrain id="277" lom="229" tif="42">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,2300,100,100)</source>
+    </sprite>
+    <average>(133,107,5,255)</average>
+  </terrain>
+  <terrain id="278" action="33" tif="300">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(700,2300,100,100)</source>
+    </sprite>
+    <average>(195,190,161,255)</average>
+  </terrain>
+  <terrain id="279" action="4" tif="519">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(800,2300,100,100)</source>
+    </sprite>
+    <average>(179,174,0,255)</average>
+  </terrain>
+  <terrain id="280" action="4" tif="627">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(900,2300,100,100)</source>
+    </sprite>
+    <average>(179,174,0,255)</average>
+  </terrain>
+  <terrain id="281" action="4" tif="518">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,2300,100,100)</source>
+    </sprite>
+    <average>(215,196,0,255)</average>
+  </terrain>
+  <terrain id="282" action="4" tif="628">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,2300,100,100)</source>
+    </sprite>
+    <average>(215,196,0,255)</average>
+  </terrain>
+  <terrain id="283" action="13" tif="138">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2400,100,100)</source>
+    </sprite>
+    <average>(238,184,145,255)</average>
+  </terrain>
+  <terrain id="284" action="13" tif="307">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2400,100,100)</source>
+    </sprite>
+    <average>(236,176,135,255)</average>
+  </terrain>
+  <terrain id="285" lom="233" action="13" tif="134">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,2400,100,100)</source>
+    </sprite>
+    <average>(239,185,146,255)</average>
+  </terrain>
+  <terrain id="286" lom="234" action="13" tif="296">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,2400,100,100)</source>
+    </sprite>
+    <average>(237,176,136,255)</average>
+  </terrain>
+  <terrain id="287" lom="235" action="13" tif="144">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(400,2400,100,100)</source>
+    </sprite>
+    <average>(239,185,146,255)</average>
+  </terrain>
+  <terrain id="288" lom="236" action="13" tif="292">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,2400,100,100)</source>
+    </sprite>
+    <average>(237,177,136,255)</average>
+  </terrain>
+  <terrain id="289" lom="237" tif="44">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,2400,100,100)</source>
+    </sprite>
+    <average>(139,193,33,255)</average>
+  </terrain>
+  <terrain id="290" action="33" lom="238" tif="301">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(700,2400,100,100)</source>
+    </sprite>
+    <average>(198,181,147,255)</average>
+  </terrain>
+  <terrain id="291" action="4" tif="517">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(800,2400,100,100)</source>
+    </sprite>
+    <average>(128,128,128,255)</average>
+  </terrain>
+  <terrain id="292" action="4" tif="629">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(900,2400,100,100)</source>
+    </sprite>
+    <average>(128,128,128,255)</average>
+  </terrain>
+  <terrain id="293" action="4" tif="516">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,2400,100,100)</source>
+    </sprite>
+    <average>(148,148,148,255)</average>
+  </terrain>
+  <terrain id="294" action="4" tif="630">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(1100,2400,100,100)</source>
+    </sprite>
+    <average>(147,147,147,255)</average>
+  </terrain>
+  <terrain id="295" lom="239" action="13" tif="142">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2500,100,100)</source>
+    </sprite>
+    <average>(239,185,146,255)</average>
+  </terrain>
+  <terrain id="296" lom="240" action="13" tif="293">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2500,100,100)</source>
+    </sprite>
+    <average>(237,176,136,255)</average>
+  </terrain>
+  <terrain id="297" lom="241" action="13" tif="140">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,2500,100,100)</source>
+    </sprite>
+    <average>(239,185,145,255)</average>
+  </terrain>
+  <terrain id="298" lom="242" action="13" tif="294">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,2500,100,100)</source>
+    </sprite>
+    <average>(237,176,135,255)</average>
+  </terrain>
+  <terrain id="299" lom="243" action="13" tif="136">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(400,2500,100,100)</source>
+    </sprite>
+    <average>(239,185,146,255)</average>
+  </terrain>
+  <terrain id="300" lom="244" action="13" tif="295">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,2500,100,100)</source>
+    </sprite>
+    <average>(237,176,136,255)</average>
+  </terrain>
+  <terrain id="301" lom="245" tif="45">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,2500,100,100)</source>
+    </sprite>
+    <average>(208,196,196,255)</average>
+  </terrain>
+  <terrain id="302" action="33" lom="246" tif="302">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(700,2500,100,100)</source>
+    </sprite>
+    <average>(197,180,142,255)</average>
+  </terrain>
+  <terrain id="303" action="4" tif="515">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(800,2500,100,100)</source>
+    </sprite>
+    <average>(204,169,123,255)</average>
+  </terrain>
+  <terrain id="304" action="4" tif="626">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(900,2500,100,100)</source>
+    </sprite>
+    <average>(197,130,88,255)</average>
+  </terrain>
+  <terrain id="305">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,2500,100,100)</source>
+    </sprite>
+    <average>(135,132,130,255)</average>
+  </terrain>
+  <terrain id="306">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,2500,100,100)</source>
+    </sprite>
+    <average>(135,132,130,255)</average>
+  </terrain>
+  <terrain id="307" action="3" tif="705,810">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2600,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2700,100,100)</source>
+    </sprite>
+    <average>(205,131,81,255)</average>
+  </terrain>
+  <terrain id="308" action="3" tif="815,708">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2600,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2700,100,100)</source>
+    </sprite>
+    <average>(212,143,97,255)</average>
+  </terrain>
+  <terrain id="309" tif="704">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(200,2600,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,2700,100,100)</source>
+    </sprite>
+    <average>(199,126,79,255)</average>
+  </terrain>
+  <terrain id="310" tif="816">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(300,2600,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,2700,100,100)</source>
+    </sprite>
+    <average>(205,136,91,255)</average>
+  </terrain>
+  <terrain id="311" lom="251" action="4" tif="514,524">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(400,2600,100,100)</source>
+    </sprite>
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(800,2500,100,100)</source>
+    </sprite>
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2700,100,100)</source>
+    </sprite>
+    <average>(209,149,102,255)</average>
+  </terrain>
+  <terrain id="312" lom="252" action="4" tif="625,636">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(500,2600,100,100)</source>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(900,2500,100,100)</source>
+    </sprite>
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2700,100,100)</source>
+    </sprite>
+    <average>(204,132,85,255)</average>
+  </terrain>
+  <terrain id="313" lom="253" action="13" tif="288">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(600,2600,100,100)</source>
+    </sprite>
+    <average>(201,153,115,255)</average>
+  </terrain>
+  <terrain id="314" action="33" lom="254" tif="303">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(700,2600,100,100)</source>
+    </sprite>
+    <average>(198,183,141,255)</average>
+  </terrain>
+  <terrain id="315" lom="255" action="37" tif="48">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,2600,100,100)</source>
+    </sprite>
+    <average>(226,218,202,255)</average>
+  </terrain>
+  <terrain id="316" lom="256" action="37" tif="49">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,2600,100,100)</source>
+    </sprite>
+    <average>(210,206,215,255)</average>
+  </terrain>
+  <terrain id="317" lom="257" tif="433">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(1000,2600,100,100)</source>
+    </sprite>
+    <average>(197,21,21,255)</average>
+  </terrain>
+  <terrain id="318" tif="63" action="37">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,2600,100,100)</source>
+    </sprite>
+    <average>(215,203,212,255)</average>
+  </terrain>
+  <terrain id="319" tif="64">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,2600,100,100)</source>
+    </sprite>
+    <average>(212,206,213,255)</average>
+  </terrain>
+  <terrain id="320" tif="145,156">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2700,100,100)</source>
+    </sprite>
+    <average>(204,130,80,255)</average>
+  </terrain>
+  <terrain id="321" tif="306,315">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2700,100,100)</source>
+    </sprite>
+    <average>(209,136,90,255)</average>
+  </terrain>
+  <terrain id="322">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,2700,100,100)</source>
+    </sprite>
+    <average>(201,128,80,255)</average>
+  </terrain>
+  <terrain id="323">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,2700,100,100)</source>
+    </sprite>
+    <average>(206,134,89,255)</average>
+  </terrain>
+  <terrain id="324" action="33" tif="305">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(400,2700,100,100)</source>
+    </sprite>
+    <average>(181,148,95,255)</average>
+  </terrain>
+  <terrain id="325" lom="259" tif="43">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(500,2700,100,100)</source>
+    </sprite>
+    <average>(230,182,14,255)</average>
+  </terrain>
+  <terrain id="326" lom="260" tif="297">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(600,2700,100,100)</source>
+    </sprite>
+    <average>(82,93,30,255)</average>
+  </terrain>
+  <terrain id="327" action="33" lom="261" tif="304">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(700,2700,100,100)</source>
+    </sprite>
+    <average>(200,186,143,255)</average>
+  </terrain>
+  <terrain id="328" lom="262" action="37" tif="51">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,2700,100,100)</source>
+    </sprite>
+    <average>(207,207,202,255)</average>
+  </terrain>
+  <terrain id="329" lom="263" action="37" tif="50">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,2700,100,100)</source>
+    </sprite>
+    <average>(210,207,205,255)</average>
+  </terrain>
+  <terrain id="330" action="37" tif="57">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,2700,100,100)</source>
+    </sprite>
+    <average>(213,204,208,255)</average>
+  </terrain>
+  <terrain id="331" tif="62">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,2700,100,100)</source>
+    </sprite>
+    <average>(211,208,198,255)</average>
+  </terrain>
+  <terrain id="332" tif="58">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,2700,100,100)</source>
+    </sprite>
+    <average>(216,199,197,255)</average>
+  </terrain>
+  <terrain id="333" lom="265" action="13" tif="160,176">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2800,100,100)</source>
+    </sprite>
+    <average>(81,56,40,255)</average>
+  </terrain>
+  <terrain id="334" lom="266" action="13" tif="322,361">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2800,100,100)</source>
+    </sprite>
+    <average>(64,47,34,255)</average>
+  </terrain>
+  <terrain id="335" lom="267" action="13" tif="158,177">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,2800,100,100)</source>
+    </sprite>
+    <average>(64,84,72,255)</average>
+  </terrain>
+  <terrain id="336" lom="268" action="13" tif="327,357">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,2800,100,100)</source>
+    </sprite>
+    <average>(57,74,63,255)</average>
+  </terrain>
+  <terrain id="337" action="37" tif="47">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(400,2800,100,100)</source>
+    </sprite>
+    <average>(222,211,209,255)</average>
+  </terrain>
+  <terrain id="338" tif="161">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(500,2800,100,100)</source>
+    </sprite>
+    <average>(187,132,45,255)</average>
+  </terrain>
+  <terrain id="339" tif="319">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(600,2800,100,100)</source>
+    </sprite>
+    <average>(181,119,51,255)</average>
+  </terrain>
+  <terrain id="340" tif="430">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(700,2800,100,100)</source>
+    </sprite>
+    <average>(221,198,163,255)</average>
+  </terrain>
+  <terrain id="341">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,2800,100,100)</source>
+    </sprite>
+    <average>(42,153,68,255)</average>
+  </terrain>
+  <terrain id="342" lom="273" tif="159">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,2900,100,100)</source>
+    </sprite>
+    <average>(91,70,54,255)</average>
+  </terrain>
+  <terrain id="343" lom="274" tif="324">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,2900,100,100)</source>
+    </sprite>
+    <average>(81,69,57,255)</average>
+  </terrain>
+  <terrain id="344" lom="275" tif="157">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,2900,100,100)</source>
+    </sprite>
+    <average>(77,94,85,255)</average>
+  </terrain>
+  <terrain id="345" lom="276" tif="329">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,2900,100,100)</source>
+    </sprite>
+    <average>(73,87,80,255)</average>
+  </terrain>
+  <terrain id="346" lom="277" action="13" tif="162,171">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(400,2900,100,100)</source>
+    </sprite>
+    <average>(213,148,40,255)</average>
+  </terrain>
+  <terrain id="347" lom="278" action="13" tif="320,360">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,2900,100,100)</source>
+    </sprite>
+    <average>(201,127,37,255)</average>
+  </terrain>
+  <terrain id="348" lom="279" action="33" tif="638">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(600,2900,100,100)</source>
+    </sprite>
+    <average>(232,194,174,255)</average>
+  </terrain>
+  <terrain id="349" treasure="true">
+    <sprite order="6" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(700,2900,100,100)</source>
+    </sprite>
+    <average>(155,134,99,255)</average>
+  </terrain>
+  <terrain id="350">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,2900,100,100)</source>
+    </sprite>
+    <average>(57,96,40,255)</average>
+  </terrain>
+  <terrain id="351">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,2900,100,100)</source>
+    </sprite>
+    <average>(68,100,56,255)</average>
+  </terrain>
+  <terrain id="352">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,2900,100,100)</source>
+    </sprite>
+    <average>(68,96,56,255)</average>
+  </terrain>
+  <terrain id="353">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,2900,100,100)</source>
+    </sprite>
+    <average>(64,94,62,255)</average>
+  </terrain>
+  <terrain id="354">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,2900,100,100)</source>
+    </sprite>
+    <average>(101,95,99,255)</average>
+  </terrain>
+  <terrain id="355" lom="280" action="13" tif="323">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(0,3000,100,100)</source>
+    </sprite>
+    <average>(84,61,38,255)</average>
+  </terrain>
+  <terrain id="356" lom="281" tif="326">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,3000,100,100)</source>
+    </sprite>
+    <average>(85,67,55,255)</average>
+  </terrain>
+  <terrain id="357" lom="282" action="13" tif="328">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(200,3000,100,100)</source>
+    </sprite>
+    <average>(63,81,69,255)</average>
+  </terrain>
+  <terrain id="358" lom="283" tif="330">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,3000,100,100)</source>
+    </sprite>
+    <average>(78,91,84,255)</average>
+  </terrain>
+  <terrain id="359" lom="284" action="13" tif="325">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(400,3000,100,100)</source>
+    </sprite>
+    <average>(207,138,38,255)</average>
+  </terrain>
+  <terrain id="360" lom="285" tif="321">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,3000,100,100)</source>
+    </sprite>
+    <average>(195,131,41,255)</average>
+  </terrain>
+  <terrain id="361" lom="286" action="33" tif="527">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(600,3000,100,100)</source>
+    </sprite>
+    <average>(232,194,174,255)</average>
+  </terrain>
+  <terrain id="362" tif="369" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,3000,100,100)</source>
+    </sprite>
+    <average>(156,98,86,255)</average>
+  </terrain>
+  <terrain id="363" tif="370" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3000,100,100)</source>
+    </sprite>
+    <average>(164,109,102,255)</average>
+  </terrain>
+  <terrain id="364" tif="376">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3000,100,100)</source>
+    </sprite>
+    <average>(150,78,53,255)</average>
+  </terrain>
+  <terrain id="365" tif="377">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,3000,100,100)</source>
+    </sprite>
+    <average>(149,71,55,255)</average>
+  </terrain>
+  <terrain id="366" tif="371" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,3000,100,100)</source>
+    </sprite>
+    <average>(153,2,0,255)</average>
+  </terrain>
+  <terrain id="367">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,3000,100,100)</source>
+    </sprite>
+    <average>(148,0,0,255)</average>
+  </terrain>
+  <terrain id="368" lom="287" tif="353,186">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(0,3100,100,100)</source>
+    </sprite>
+    <average>(177,178,204,255)</average>
+  </terrain>
+  <terrain id="369" lom="288" tif="52">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(100,3100,100,100)</source>
+    </sprite>
+    <average>(71,55,36,255)</average>
+  </terrain>
+  <terrain id="370" lom="289" tif="841">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(200,3100,100,100)</source>
+    </sprite>
+    <average>(66,118,121,255)</average>
+  </terrain>
+  <terrain id="371" lom="290" tif="343">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,3100,100,100)</source>
+    </sprite>
+    <average>(128,108,92,255)</average>
+  </terrain>
+  <terrain id="372" lom="291" tif="840">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(400,3100,100,100)</source>
+    </sprite>
+    <average>(43,59,148,255)</average>
+  </terrain>
+  <terrain id="373" lom="292" tif="432">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(500,3100,100,100)</source>
+    </sprite>
+    <average>(154,116,96,255)</average>
+  </terrain>
+  <terrain id="374" cost="3" lom="293" tif="54">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,3100,100,100)</source>
+    </sprite>
+    <average>(153,22,19,255)</average>
+  </terrain>
+  <terrain id="375" tif="56">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,3100,100,100)</source>
+    </sprite>
+    <average>(69,68,65,255)</average>
+  </terrain>
+  <terrain id="376" tif="374">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3100,100,100)</source>
+    </sprite>
+    <average>(145,2,0,255)</average>
+  </terrain>
+  <terrain id="377" tif="375">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3100,100,100)</source>
+    </sprite>
+    <average>(155,0,0,255)</average>
+  </terrain>
+  <terrain id="378" action="4" tif="372">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,3100,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3100,100,100)</source>
+    </sprite>
+    <average>(159,103,101,255)</average>
+  </terrain>
+  <terrain id="379" action="4" tif="373">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,3100,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3100,100,100)</source>
+    </sprite>
+    <average>(160,97,95,255)</average>
+  </terrain>
+  <terrain id="380" cost="6">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,3100,100,100)</source>
+    </sprite>
+    <average>(129,100,71,255)</average>
+  </terrain>
+  <terrain id="381" lom="295" action="13" tif="165,178">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,3200,100,100)</source>
+    </sprite>
+    <average>(161,127,113,255)</average>
+  </terrain>
+  <terrain id="382" lom="296" action="13" tif="349,363">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,3200,100,100)</source>
+    </sprite>
+    <average>(120,88,78,255)</average>
+  </terrain>
+  <terrain id="383" lom="297" action="13" tif="164,175">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,3200,100,100)</source>
+    </sprite>
+    <average>(193,196,242,255)</average>
+  </terrain>
+  <terrain id="384" lom="298" action="13" tif="348,359">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,3200,100,100)</source>
+    </sprite>
+    <average>(181,183,223,255)</average>
+  </terrain>
+  <terrain id="385" lom="299" action="13" tif="531">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(400,3200,100,100)</source>
+    </sprite>
+    <average>(163,181,163,255)</average>
+  </terrain>
+  <terrain id="386" lom="300" action="13" tif="640">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(500,3200,100,100)</source>
+    </sprite>
+    <average>(163,181,163,255)</average>
+  </terrain>
+  <terrain id="387" lom="301" tif="55">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,3200,100,100)</source>
+    </sprite>
+    <average>(85,74,70,255)</average>
+  </terrain>
+  <terrain id="388" lom="302" tif="53">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,3200,100,100)</source>
+    </sprite>
+    <average>(209,211,250,255)</average>
+  </terrain>
+  <terrain id="389">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3200,100,100)</source>
+    </sprite>
+    <average>(139,5,0,255)</average>
+  </terrain>
+  <terrain id="390">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3200,100,100)</source>
+    </sprite>
+    <average>(144,0,0,255)</average>
+  </terrain>
+  <terrain id="391">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,3200,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3100,100,100)</source>
+    </sprite>
+    <average>(146,33,28,255)</average>
+  </terrain>
+  <terrain id="392">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,3200,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3100,100,100)</source>
+    </sprite>
+    <average>(149,34,28,255)</average>
+  </terrain>
+  <terrain id="393" tif="67">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,3200,100,100)</source>
+    </sprite>
+    <average>(152,103,37,255)</average>
+  </terrain>
+  <terrain id="394" tif="168">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(0,3300,100,100)</source>
+    </sprite>
+    <average>(146,124,116,255)</average>
+  </terrain>
+  <terrain id="395" tif="331">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,3300,100,100)</source>
+    </sprite>
+    <average>(108,92,87,255)</average>
+  </terrain>
+  <terrain id="396" tif="163">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(200,3300,100,100)</source>
+    </sprite>
+    <average>(179,182,235,255)</average>
+  </terrain>
+  <terrain id="397" tif="350">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,3300,100,100)</source>
+    </sprite>
+    <average>(167,170,220,255)</average>
+  </terrain>
+  <terrain id="398" cost="6">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(400,3300,100,100)</source>
+    </sprite>
+    <average>(64,66,64,255)</average>
+  </terrain>
+  <terrain id="399" lom="307" tif="342">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(500,3300,100,100)</source>
+    </sprite>
+    <average>(176,176,176,255)</average>
+  </terrain>
+  <terrain id="400" lom="308" tif="334">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(600,3300,100,100)</source>
+    </sprite>
+    <average>(170,170,170,255)</average>
+  </terrain>
+  <terrain id="401" lom="309" tif="431">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(700,3300,100,100)</source>
+    </sprite>
+    <average>(127,63,48,255)</average>
+  </terrain>
+  <terrain id="402">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3300,100,100)</source>
+    </sprite>
+    <average>(56,104,25,255)</average>
+  </terrain>
+  <terrain id="403" tif="70">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3300,100,100)</source>
+    </sprite>
+    <average>(33,107,25,255)</average>
+  </terrain>
+  <terrain id="404">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,3300,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3200,100,100)</source>
+    </sprite>
+    <average>(147,34,30,255)</average>
+  </terrain>
+  <terrain id="405">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,3300,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3200,100,100)</source>
+    </sprite>
+    <average>(147,32,26,255)</average>
+  </terrain>
+  <terrain id="406" tif="69">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,3300,100,100)</source>
+    </sprite>
+    <average>(133,93,18,255)</average>
+  </terrain>
+  <terrain id="407" lom="310" action="13" tif="344">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(0,3400,100,100)</source>
+    </sprite>
+    <average>(118,81,71,255)</average>
+  </terrain>
+  <terrain id="408" lom="311" tif="332">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,3400,100,100)</source>
+    </sprite>
+    <average>(120,76,65,255)</average>
+  </terrain>
+  <terrain id="409" lom="312" action="13" tif="352">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(200,3400,100,100)</source>
+    </sprite>
+    <average>(175,178,229,255)</average>
+  </terrain>
+  <terrain id="410" tif="351">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(300,3400,100,100)</source>
+    </sprite>
+    <average>(168,171,227,255)</average>
+  </terrain>
+  <terrain id="411" tif="338">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(400,3400,100,100)</source>
+    </sprite>
+    <average>(97,134,97,255)</average>
+  </terrain>
+  <terrain id="412" tif="339">
+    <sprite order="4" underpile="true">
+      <texture>Bitmaps\004</texture>
+      <source>(500,3400,100,100)</source>
+    </sprite>
+    <average>(97,136,99,255)</average>
+  </terrain>
+  <terrain id="413" tif="378" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,3400,100,100)</source>
+    </sprite>
+    <average>(64,64,64,255)</average>
+  </terrain>
+  <terrain id="414" tif="379" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,3400,100,100)</source>
+    </sprite>
+    <average>(58,58,58,255)</average>
+  </terrain>
+  <terrain id="415" tif="381">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3400,100,100)</source>
+    </sprite>
+    <average>(60,60,60,255)</average>
+  </terrain>
+  <terrain id="416" tif="382">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3400,100,100)</source>
+    </sprite>
+    <average>(59,58,58,255)</average>
+  </terrain>
+  <terrain id="417" tif="380" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,3400,100,100)</source>
+    </sprite>
+    <average>(54,53,53,255)</average>
+  </terrain>
+  <terrain id="418">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,3400,100,100)</source>
+    </sprite>
+    <average>(50,49,48,255)</average>
+  </terrain>
+  <terrain id="419" tif="68">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,3400,100,100)</source>
+    </sprite>
+    <average>(62,62,62,255)</average>
+  </terrain>
+  <terrain id="420" action="4" tif="530">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(0,3500,100,100)</source>
+    </sprite>
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(600,3500,100,100)</source>
+    </sprite>
+    <average>(123,123,123,255)</average>
+  </terrain>
+  <terrain id="421" action="4" tif="642">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(100,3500,100,100)</source>
+    </sprite>
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(700,3500,100,100)</source>
+    </sprite>
+    <average>(121,121,121,255)</average>
+  </terrain>
+  <terrain id="422" tif="65">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,3500,100,100)</source>
+    </sprite>
+    <average>(117,37,28,255)</average>
+  </terrain>
+  <terrain id="423" tif="66">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,3500,100,100)</source>
+    </sprite>
+    <average>(111,32,24,255)</average>
+  </terrain>
+  <terrain id="424" lom="318" tif="335">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(400,3500,100,100)</source>
+    </sprite>
+    <average>(132,132,131,255)</average>
+  </terrain>
+  <terrain id="425" lom="319" tif="336">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,3500,100,100)</source>
+    </sprite>
+    <average>(141,141,141,255)</average>
+  </terrain>
+  <terrain id="426" action="4" tif="532">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(600,3500,100,100)</source>
+    </sprite>
+    <average>(122,122,122,255)</average>
+  </terrain>
+  <terrain id="427" action="4" tif="641">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(700,3500,100,100)</source>
+    </sprite>
+    <average>(125,125,125,255)</average>
+  </terrain>
+  <terrain id="428" tif="395" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3500,100,100)</source>
+    </sprite>
+    <average>(215,215,225,255)</average>
+  </terrain>
+  <terrain id="429" tif="396" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3500,100,100)</source>
+    </sprite>
+    <average>(220,220,230,255)</average>
+  </terrain>
+  <terrain id="430" tif="397">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,3500,100,100)</source>
+    </sprite>
+    <average>(214,214,225,255)</average>
+  </terrain>
+  <terrain id="431" tif="398">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,3500,100,100)</source>
+    </sprite>
+    <average>(219,220,229,255)</average>
+  </terrain>
+  <terrain id="432" cost="6">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,3500,100,100)</source>
+    </sprite>
+    <average>(151,151,151,255)</average>
+  </terrain>
+  <terrain id="433" action="3" tif="838">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(0,3600,100,100)</source>
+    </sprite>
+    <average>(117,117,116,255)</average>
+  </terrain>
+  <terrain id="434" action="3" tif="718">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(100,3600,100,100)</source>
+    </sprite>
+    <average>(117,116,116,255)</average>
+  </terrain>
+  <terrain id="435" tif="839">
+    <sprite order="1">
+      <texture>Bitmaps\004</texture>
+      <source>(200,3600,100,100)</source>
+    </sprite>
+    <average>(119,118,118,255)</average>
+  </terrain>
+  <terrain id="436" tif="719">
+    <sprite order="2">
+      <texture>Bitmaps\004</texture>
+      <source>(300,3600,100,100)</source>
+    </sprite>
+    <average>(116,116,115,255)</average>
+  </terrain>
+  <terrain id="437" lom="324" tif="333">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(400,3600,100,100)</source>
+    </sprite>
+    <average>(123,123,122,255)</average>
+  </terrain>
+  <terrain id="438" lom="325" tif="341">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,3600,100,100)</source>
+    </sprite>
+    <average>(131,130,130,255)</average>
+  </terrain>
+  <terrain id="439" tif="529">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(600,3600,100,100)</source>
+    </sprite>
+    <average>(129,76,57,255)</average>
+  </terrain>
+  <terrain id="440" tif="643">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(700,3600,100,100)</source>
+    </sprite>
+    <average>(128,79,56,255)</average>
+  </terrain>
+  <terrain id="441" tif="399">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3600,100,100)</source>
+    </sprite>
+    <average>(225,226,226,255)</average>
+  </terrain>
+  <terrain id="442" tif="400">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3600,100,100)</source>
+    </sprite>
+    <average>(224,224,224,255)</average>
+  </terrain>
+  <terrain id="443" tif="180" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,3600,100,100)</source>
+    </sprite>
+    <average>(209,209,221,255)</average>
+  </terrain>
+  <terrain id="444" tif="181">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,3600,100,100)</source>
+    </sprite>
+    <average>(224,224,224,255)</average>
+  </terrain>
+  <terrain id="445" tif="185">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,3600,100,100)</source>
+    </sprite>
+    <average>(185,184,222,255)</average>
+  </terrain>
+  <terrain id="446" tif="347">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(0,3700,100,100)</source>
+    </sprite>
+    <average>(73,53,37,255)</average>
+  </terrain>
+  <terrain id="447" lom="329" tif="346">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(100,3700,100,100)</source>
+    </sprite>
+    <average>(62,80,68,255)</average>
+  </terrain>
+  <terrain id="448" lom="114" tif="345">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(200,3700,100,100)</source>
+    </sprite>
+    <average>(209,139,42,255)</average>
+  </terrain>
+  <terrain id="449" lom="331" tif="167">
+    <sprite order="5">
+      <texture>Bitmaps\004</texture>
+      <source>(300,3700,100,100)</source>
+    </sprite>
+    <average>(90,88,87,255)</average>
+  </terrain>
+  <terrain id="450" lom="332" tif="337">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(400,3700,100,100)</source>
+    </sprite>
+    <average>(92,90,89,255)</average>
+  </terrain>
+  <terrain id="451" tif="166,340">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(500,3700,100,100)</source>
+    </sprite>
+    <average>(57,53,51,255)</average>
+  </terrain>
+  <terrain id="452" tif="169,354">
+    <sprite order="4">
+      <texture>Bitmaps\004</texture>
+      <source>(600,3700,100,100)</source>
+    </sprite>
+    <average>(57,53,51,255)</average>
+  </terrain>
+  <terrain id="453" action="4" tif="650">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,3700,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,3800,100,100)</source>
+    </sprite>
+    <average>(207,209,226,255)</average>
+  </terrain>
+  <terrain id="454" action="4" tif="649">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3700,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3800,100,100)</source>
+    </sprite>
+    <average>(209,212,231,255)</average>
+  </terrain>
+  <terrain id="455">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3700,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,3800,100,100)</source>
+    </sprite>
+    <average>(204,206,223,255)</average>
+  </terrain>
+  <terrain id="456">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,3700,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3800,100,100)</source>
+    </sprite>
+    <average>(208,210,231,255)</average>
+  </terrain>
+  <terrain id="457">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,3700,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3800,100,100)</source>
+    </sprite>
+    <average>(206,208,224,255)</average>
+  </terrain>
+  <terrain id="458">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1200,3700,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,3800,100,100)</source>
+    </sprite>
+    <average>(203,204,225,255)</average>
+  </terrain>
+  <terrain id="459" tif="388" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(0,3800,100,100)</source>
+    </sprite>
+    <average>(193,208,208,255)</average>
+  </terrain>
+  <terrain id="460" tif="389" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(100,3800,100,100)</source>
+    </sprite>
+    <average>(194,208,208,255)</average>
+  </terrain>
+  <terrain id="461" tif="390">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,3800,100,100)</source>
+    </sprite>
+    <average>(92,79,76,255)</average>
+  </terrain>
+  <terrain id="462" tif="391">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,3800,100,100)</source>
+    </sprite>
+    <average>(76,61,62,255)</average>
+  </terrain>
+  <terrain id="463" tif="392" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(400,3800,100,100)</source>
+    </sprite>
+    <average>(182,189,189,255)</average>
+  </terrain>
+  <terrain id="464" tif="393">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(500,3800,100,100)</source>
+    </sprite>
+    <average>(120,113,113,255)</average>
+  </terrain>
+  <terrain id="465" cost="6" tif="394">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,3800,100,100)</source>
+    </sprite>
+    <average>(137,141,141,255)</average>
+  </terrain>
+  <terrain id="466" tif="368">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,3800,100,100)</source>
+    </sprite>
+    <average>(203,205,222,255)</average>
+  </terrain>
+  <terrain id="467" tif="367">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3800,100,100)</source>
+    </sprite>
+    <average>(202,203,226,255)</average>
+  </terrain>
+  <terrain id="468">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3800,100,100)</source>
+    </sprite>
+    <average>(205,206,220,255)</average>
+  </terrain>
+  <terrain id="469">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,3800,100,100)</source>
+    </sprite>
+    <average>(205,206,229,255)</average>
+  </terrain>
+  <terrain id="470" tif="182" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(0,3900,100,100)</source>
+    </sprite>
+    <average>(155,120,99,255)</average>
+  </terrain>
+  <terrain id="471" tif="183" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(100,3900,100,100)</source>
+    </sprite>
+    <average>(150,117,97,255)</average>
+  </terrain>
+  <terrain id="472">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,3900,100,100)</source>
+    </sprite>
+    <average>(150,101,67,255)</average>
+  </terrain>
+  <terrain id="473">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,3900,100,100)</source>
+    </sprite>
+    <average>(150,101,67,255)</average>
+  </terrain>
+  <terrain id="474" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(400,3900,100,100)</source>
+    </sprite>
+    <average>(173,140,120,255)</average>
+  </terrain>
+  <terrain id="475" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(500,3900,100,100)</source>
+    </sprite>
+    <average>(168,137,119,255)</average>
+  </terrain>
+  <terrain id="476">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,3900,100,100)</source>
+    </sprite>
+    <average>(152,103,69,255)</average>
+  </terrain>
+  <terrain id="477">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,3900,100,100)</source>
+    </sprite>
+    <average>(151,102,69,255)</average>
+  </terrain>
+  <terrain id="478">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,3900,100,100)</source>
+    </sprite>
+    <average>(195,177,170,255)</average>
+  </terrain>
+  <terrain id="479">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,3900,100,100)</source>
+    </sprite>
+    <average>(195,177,170,255)</average>
+  </terrain>
+  <terrain id="480" tif="187" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,3900,100,100)</source>
+    </sprite>
+    <average>(111,75,39,255)</average>
+  </terrain>
+  <terrain id="481">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,3900,100,100)</source>
+    </sprite>
+    <average>(116,77,41,255)</average>
+  </terrain>
+  <terrain id="482" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(0,4000,100,100)</source>
+    </sprite>
+    <average>(170,145,130,255)</average>
+  </terrain>
+  <terrain id="483" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(100,4000,100,100)</source>
+    </sprite>
+    <average>(169,145,130,255)</average>
+  </terrain>
+  <terrain id="484">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,4000,100,100)</source>
+    </sprite>
+    <average>(143,114,96,255)</average>
+  </terrain>
+  <terrain id="485">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,4000,100,100)</source>
+    </sprite>
+    <average>(143,114,96,255)</average>
+  </terrain>
+  <terrain id="486" tif="188" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(400,4000,100,100)</source>
+    </sprite>
+    <average>(201,167,149,255)</average>
+  </terrain>
+  <terrain id="487" tif="189" action="13">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(500,4000,100,100)</source>
+    </sprite>
+    <average>(196,164,148,255)</average>
+  </terrain>
+  <terrain id="488">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,4000,100,100)</source>
+    </sprite>
+    <average>(173,114,76,255)</average>
+  </terrain>
+  <terrain id="489">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,4000,100,100)</source>
+    </sprite>
+    <average>(173,114,76,255)</average>
+  </terrain>
+  <terrain id="490" tif="190">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,4000,100,100)</source>
+    </sprite>
+    <average>(184,178,216,255)</average>
+  </terrain>
+  <terrain id="491">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,4000,100,100)</source>
+    </sprite>
+    <average>(184,178,216,255)</average>
+  </terrain>
+  <terrain id="492" tif="195">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1000,4000,100,100)</source>
+    </sprite>
+    <average>(83,39,4,255)</average>
+  </terrain>
+  <terrain id="493" tif="81">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(1100,4000,100,100)</source>
+    </sprite>
+    <average>(157,103,61,255)</average>
+  </terrain>
+  <terrain id="494" action="4">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(0,4100,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,4100,100,100)</source>
+    </sprite>
+    <average>(180,180,180,255)</average>
+  </terrain>
+  <terrain id="495" action="4">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(100,4100,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,4100,100,100)</source>
+    </sprite>
+    <average>(177,177,177,255)</average>
+  </terrain>
+  <terrain id="496">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,4100,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,4100,100,100)</source>
+    </sprite>
+    <average>(175,175,175,255)</average>
+  </terrain>
+  <terrain id="497">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,4100,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,4100,100,100)</source>
+    </sprite>
+    <average>(181,181,181,255)</average>
+  </terrain>
+  <terrain id="498">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(400,4100,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,4100,100,100)</source>
+    </sprite>
+    <average>(173,173,173,255)</average>
+  </terrain>
+  <terrain id="499">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(500,4100,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,4100,100,100)</source>
+    </sprite>
+    <average>(179,179,179,255)</average>
+  </terrain>
+  <terrain id="500">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,4100,100,100)</source>
+    </sprite>
+    <average>(174,174,174,255)</average>
+  </terrain>
+  <terrain id="501">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,4100,100,100)</source>
+    </sprite>
+    <average>(179,179,179,255)</average>
+  </terrain>
+  <terrain id="502">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,4100,100,100)</source>
+    </sprite>
+    <average>(174,174,174,255)</average>
+  </terrain>
+  <terrain id="503">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,4100,100,100)</source>
+    </sprite>
+    <average>(179,179,179,255)</average>
+  </terrain>
+  <terrain id="504" action="4" tif="192">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(0,4200,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,4200,100,100)</source>
+    </sprite>
+    <average>(180,180,180,255)</average>
+  </terrain>
+  <terrain id="505" action="4" tif="191">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(100,4200,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,4200,100,100)</source>
+    </sprite>
+    <average>(176,176,176,255)</average>
+  </terrain>
+  <terrain id="506">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(200,4200,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,4200,100,100)</source>
+    </sprite>
+    <average>(177,177,177,255)</average>
+  </terrain>
+  <terrain id="507">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(300,4200,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,4200,100,100)</source>
+    </sprite>
+    <average>(180,180,180,255)</average>
+  </terrain>
+  <terrain id="508">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(400,4200,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(800,4200,100,100)</source>
+    </sprite>
+    <average>(174,174,174,255)</average>
+  </terrain>
+  <terrain id="509">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(500,4200,100,100)</source>
+    </sprite>
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(900,4200,100,100)</source>
+    </sprite>
+    <average>(178,178,178,255)</average>
+  </terrain>
+  <terrain id="510" tif="194">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(600,4200,100,100)</source>
+    </sprite>
+    <average>(179,179,179,255)</average>
+  </terrain>
+  <terrain id="511" tif="193">
+    <sprite>
+      <texture>Bitmaps\004</texture>
+      <source>(700,4200,100,100)</source>
+    </sprite>
+    <average>(181,181,181,255)</average>
+  </terrain>
+  <terrain id="512" lom="335" action="5" tif="427,637">
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(700,2100,100,100)</source>
+      <offset>(-1,12)</offset>
+    </sprite>
+    <average>(193,120,77,255)</average>
+  </terrain>
+  <terrain id="513" lom="336" action="5" tif="428">
+    <sprite order="3">
+      <texture>Bitmaps\004</texture>
+      <source>(800,2100,100,100)</source>
+    </sprite>
+    <average>(191,118,76,255)</average>
+  </terrain>
+  <terrain id="514" lom="337" action="5" tif="429,526">
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(900,2100,100,100)</source>
+      <offset>(-50,-5)</offset>
+    </sprite>
+    <average>(175,107,67,255)</average>
+  </terrain>
+  <terrain id="601" cost="6">
+    <sprite>
+      <texture>Zrikz\Terrain\Water</texture>
+      <source>(0,0,275,100)</source>
+      <frames step="300" keys="0-4">
+        <frame>(0,0,100,100)</frame>
+        <frame>(100,0,100,100)</frame>
+        <frame>(200,0,100,100)</frame>
+        <frame>(300,0,100,100)</frame>
+        <frame>(400,0,100,100)</frame>
+      </frames>
+    </sprite>
+    <average>(11,82,214,255)</average>
+  </terrain>
+  <terrain id="602" cost="6">
+    <sprite>
+      <texture>Zrikz\Terrain\Sewer</texture>
+      <source>(0,0,275,100)</source>
+      <frames step="300" keys="0-4">
+        <frame>(0,0,100,100)</frame>
+        <frame>(100,0,100,100)</frame>
+        <frame>(200,0,100,100)</frame>
+        <frame>(300,0,100,100)</frame>
+        <frame>(400,0,100,100)</frame>
+      </frames>
+    </sprite>
+    <average>(37,78,33,255)</average>
+  </terrain>
+  <terrain id="603">
+    <sprite>
+      <texture>Zrikz\Terrain\Sand</texture>
+      <source>(0,0,275,100)</source>
+      <frames step="300" keys="0-4">
+        <frame>(0,0,100,100)</frame>
+        <frame>(100,0,100,100)</frame>
+        <frame>(200,0,100,100)</frame>
+        <frame>(300,0,100,100)</frame>
+        <frame>(400,0,100,100)</frame>
+      </frames>
+    </sprite>
+    <average>(196,185,130,255)</average>
+  </terrain>
+  <terrain id="604">
+    <sprite>
+      <texture>Zrikz\Terrain\Sandflats</texture>
+      <source>(0,0,275,100)</source>
+      <frames step="300" keys="0-4">
+        <frame>(0,0,100,100)</frame>
+        <frame>(100,0,100,100)</frame>
+        <frame>(200,0,100,100)</frame>
+        <frame>(300,0,100,100)</frame>
+        <frame>(400,0,100,100)</frame>
+      </frames>
+    </sprite>
+    <average>(210,206,177,255)</average>
+  </terrain>
+  <terrain id="605">
+    <sprite>
+      <texture>Zrikz\Terrain\Reef</texture>
+      <source>(0,0,275,100)</source>
+      <frames step="300" keys="0-4">
+        <frame>(0,0,100,100)</frame>
+        <frame>(100,0,100,100)</frame>
+        <frame>(200,0,100,100)</frame>
+        <frame>(300,0,100,100)</frame>
+        <frame>(400,0,100,100)</frame>
+      </frames>
+    </sprite>
+    <average>(71,97,175,255)</average>
+  </terrain>
+  <terrain id="606">
+    <sprite>
+      <texture>Fireal\Terrain\aqua_tile_05_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(72,152,169,255)</average>
+  </terrain>
+  <terrain id="607">
+    <sprite>
+      <texture>Fireal\Terrain\cobble_stone_03_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(104,107,108,255)</average>
+  </terrain>
+  <terrain id="608">
+    <sprite>
+      <texture>Fireal\Terrain\cut_wood_03_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(156,145,131,255)</average>
+  </terrain>
+  <terrain id="609">
+    <sprite>
+      <texture>Fireal\Terrain\druid_cove_02_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(144,120,66,255)</average>
+  </terrain>
+  <terrain id="610">
+    <sprite>
+      <texture>Fireal\Terrain\egypt_01_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(113,85,21,255)</average>
+  </terrain>
+  <terrain id="611">
+    <sprite>
+      <texture>Fireal\Terrain\egypt_02_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(94,69,17,255)</average>
+  </terrain>
+  <terrain id="612">
+    <sprite>
+      <texture>Fireal\Terrain\fantasy_flower_pattern_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(167,128,99,255)</average>
+  </terrain>
+  <terrain id="613">
+    <sprite>
+      <texture>Fireal\Terrain\glass_lava_02_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(157,35,12,255)</average>
+  </terrain>
+  <terrain id="614">
+    <sprite>
+      <texture>Fireal\Terrain\grass_02_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(63,101,36,255)</average>
+  </terrain>
+  <terrain id="615">
+    <sprite>
+      <texture>Fireal\Terrain\ice_02_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(190,201,211,255)</average>
+  </terrain>
+  <terrain id="616">
+    <sprite>
+      <texture>Fireal\Terrain\labyrinth_02_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(158,126,62,255)</average>
+  </terrain>
+  <terrain id="617">
+    <sprite>
+      <texture>Fireal\Terrain\ornate_01_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(87,82,89,255)</average>
+  </terrain>
+  <terrain id="618">
+    <sprite>
+      <texture>Fireal\Terrain\paving-slabs_01_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(166,166,174,255)</average>
+  </terrain>
+  <terrain id="619">
+    <sprite>
+      <texture>Fireal\Terrain\skulls_04_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(104,92,83,255)</average>
+  </terrain>
+  <terrain id="620">
+    <sprite>
+      <texture>Fireal\Terrain\cobble_puzzle_01_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(101,110,120,255)</average>
+  </terrain>
+  <terrain id="621">
+    <sprite>
+      <texture>Fireal\Terrain\cobbles_01_tile</texture>
+      <source>(0,0,55,55)</source>
+      <offset>(45,45)</offset>
+    </sprite>
+    <average>(160,155,152,255)</average>
+  </terrain>
+  <terrain id="1001">
+    <sprite>
+      <texture>Bitmaps\005</texture>
+      <source>(0,0,100,100)</source>
+      <offset>(-12,-12)</offset>
+    </sprite>
+    <average>(106,121,101,255)</average>
+  </terrain>
+  <terrain id="1002">
+    <sprite>
+      <texture>Bitmaps\005</texture>
+      <source>(100,0,100,100)</source>
+    </sprite>
+    <average>(100,100,100,255)</average>
+  </terrain>
+  <terrain id="1003">
+    <!-- bedrock -->
+    <sprite>
+      <texture>Bitmaps\005</texture>
+      <source>(200,0,100,100)</source>
+    </sprite>
+    <average>(59,62,50,255)</average>
+  </terrain>
+  <terrain id="1004">
+    <!-- roots -->
+    <sprite>
+      <texture>Bitmaps\005</texture>
+      <source>(300,0,100,100)</source>
+    </sprite>
+    <average>(85,83,67,255)</average>
+  </terrain>
+  <terrain id="1005">
+    <!-- tree -->
+    <sprite>
+      <texture>Bitmaps\005</texture>
+      <source>(400,0,100,100)</source>
+    </sprite>
+    <average>(120,76,66,255)</average>
+  </terrain>
+  <terrain id="1006" tif="502">
+    <!-- animated waterfall -->
+    <sprite order="7">
+      <texture>Bitmaps\004</texture>
+      <source>(400,1600,100,100)</source>
+      <palette step="140" keys="0-5">
+        <color source="(103,103,103,255)" />
+        <color source="(127,127,127,255)" />
+        <color source="(155,155,155,255)" />
+        <color source="(195,195,195,255)" />
+        <color source="(223,223,223,255)" />
+        <color source="(239,239,239,255)" />
+      </palette>
+    </sprite>
+    <average>(184,184,184,255)</average>
+  </terrain>
+  <terrain id="1007" tif="624">
+    <!-- animated waterfall -->
+    <sprite order="6">
+      <texture>Bitmaps\004</texture>
+      <source>(500,1600,100,100)</source>
+      <palette step="140" keys="0-5">
+        <color source="(103,103,103,255)" />
+        <color source="(127,127,127,255)" />
+        <color source="(155,155,155,255)" />
+        <color source="(195,195,195,255)" />
+        <color source="(223,223,223,255)" />
+        <color source="(239,239,239,255)" />
+      </palette>
+    </sprite>
+    <average>(184,184,184,255)</average>
+  </terrain>
+</data>
