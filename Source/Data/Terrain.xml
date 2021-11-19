@@ -1412,7 +1412,7 @@
     <average>(112,112,112,255)</average>
   </terrain>
   <terrain id="171">
-    <sprite>
+    <sprite order="6">
       <texture>Bitmaps\004</texture>
       <source>(800,1400,100,100)</source>
     </sprite>
@@ -1976,7 +1976,7 @@
     <average>(136,87,52,255)</average>
   </terrain>
   <terrain id="240" lom="195">
-    <sprite>
+    <sprite order="6">
       <texture>Bitmaps\004</texture>
       <source>(500,2000,100,100)</source>
     </sprite>
@@ -2434,14 +2434,14 @@
     <average>(197,130,88,255)</average>
   </terrain>
   <terrain id="305">
-    <sprite>
+    <sprite order="6">
       <texture>Bitmaps\004</texture>
       <source>(1000,2500,100,100)</source>
     </sprite>
     <average>(135,132,130,255)</average>
   </terrain>
   <terrain id="306">
-    <sprite>
+    <sprite order="6">
       <texture>Bitmaps\004</texture>
       <source>(1100,2500,100,100)</source>
     </sprite>
@@ -3733,14 +3733,14 @@
     <average>(151,102,69,255)</average>
   </terrain>
   <terrain id="478">
-    <sprite>
+    <sprite order="6">
       <texture>Bitmaps\004</texture>
       <source>(800,3900,100,100)</source>
     </sprite>
     <average>(195,177,170,255)</average>
   </terrain>
   <terrain id="479">
-    <sprite>
+    <sprite order="6">
       <texture>Bitmaps\004</texture>
       <source>(900,3900,100,100)</source>
     </sprite>
@@ -3817,14 +3817,14 @@
     <average>(173,114,76,255)</average>
   </terrain>
   <terrain id="490" tif="190">
-    <sprite>
+    <sprite order="6">
       <texture>Bitmaps\004</texture>
       <source>(800,4000,100,100)</source>
     </sprite>
     <average>(184,178,216,255)</average>
   </terrain>
   <terrain id="491">
-    <sprite>
+    <sprite order="6">
       <texture>Bitmaps\004</texture>
       <source>(900,4000,100,100)</source>
     </sprite>
