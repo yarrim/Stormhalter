@@ -64,6 +64,12 @@
                         <Image Source="../Resources/Delete.png" Width="16" Height="16" />
                     </MenuItem.Icon>
                 </MenuItem>
+                <MenuItem Header="Export as PNG" Command="{Binding ExportRegionCommand}" 
+                          CommandParameter="{Binding ActiveDocument}">
+                    <MenuItem.Icon>
+                        <Image Source="../Resources/Save.png" Width="16" Height="16" />
+                    </MenuItem.Icon>
+                </MenuItem>
                 <!--<Separator />
                 <MenuItem Header="Shift Region" Command="{Binding ShiftRegionCommand}" 
                           CommandParameter="{Binding ActiveDocument}">

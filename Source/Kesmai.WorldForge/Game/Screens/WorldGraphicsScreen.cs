@@ -576,6 +576,12 @@ namespace Kesmai.WorldForge
 				return bounds;
 		}
 
+		public void GetPNG(string outputPath)
+        {
+			var outputfile = System.IO.File.OpenWrite(outputPath);
+			_renderTarget.SaveAsPng(outputfile, _renderTarget.Width, _renderTarget.Height);
+		}
+
 		protected override void OnRender(RenderContext context)
 		{
 			var graphicsService = context.GraphicsService;
