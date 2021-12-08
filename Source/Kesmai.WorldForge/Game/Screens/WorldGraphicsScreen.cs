@@ -609,14 +609,8 @@ namespace Kesmai.WorldForge
 			var graphicsService = ServiceLocator.Current.GetInstance<IGraphicsService>();
 			if (graphicsService is not GraphicsManager graphicsManager)
 				return;
-			_renderTarget = new RenderTarget2D(graphicsService.GraphicsDevice, message.Width, message.Height);
-			var r = new RenderContext(graphicsService);
-			r.SetPresentationTarget(_presentationTarget as PresentationTarget);
-			if (r.PresentationTarget is null)
-				return;
-			r.RenderTarget = _renderTarget;
-			OnRender(r);
-			//graphicsManager.Render(_presentationTarget);
+			//_renderTarget = new RenderTarget2D(graphicsService.GraphicsDevice, message.Width, message.Height);
+			graphicsManager.Render(_presentationTarget); //doesn't seem to actually render.
 			
 			_renderTarget.SaveAsPng(outputfile, _renderTarget.Width, _renderTarget.Height);
 
