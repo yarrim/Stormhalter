@@ -579,7 +579,11 @@ namespace Kesmai.WorldForge
 		public void GetPNG(string outputPath)
         {
 			var outputfile = System.IO.File.OpenWrite(outputPath);
+			RenderContext r = new(this.GraphicsService);
+			r.PresentationTarget = _presentationTarget;
+			this.Render(r);
 			_renderTarget.SaveAsPng(outputfile, _renderTarget.Width, _renderTarget.Height);
+			//arg. So close. how do I get a correctly sized render? I'm getting a 1x1 px view. It used to be white, though, so I think I'm getting somewhere.
 		}
 
 		protected override void OnRender(RenderContext context)
@@ -593,8 +597,8 @@ namespace Kesmai.WorldForge
 			graphicsDevice.Clear(Color.Black);
 			
 			spritebatch.Begin(SpriteSortMode.Immediate, samplerState: SamplerState.PointClamp);
-			
-			var presentation = context.GetPresentationTarget();
+
+			var presentation = context.PresentationTarget as PresentationTarget;
 			var region = presentation.Region;
 			
 			if (region != default(SegmentRegion))

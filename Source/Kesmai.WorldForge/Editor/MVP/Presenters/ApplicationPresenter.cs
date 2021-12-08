@@ -643,13 +643,32 @@ namespace Kesmai.WorldForge.Editor
 		
 		public void ExportRegion(object o)
         {
+			if (o is not SegmentRegion region)
+				return;
 			// TODO : Find bounds of region
 			// simple: get left-most, top-most, etc tile and figure out size
+			int left = region.GetTiles().Min(t => t.X);
+			int right = region.GetTiles().Max(t => t.X);
+			int top = region.GetTiles().Min(t => t.Y);
+			int bottom = region.GetTiles().Max(t => t.Y);
+			int width = (right - left) * UnitSize;
+			int height = (bottom - top) * UnitSize;
 			// TODO : file picker for target output
 			// or just dump to .storage with a file name pattern: <segment>-<region>.png
+			var storageDirectory = new DirectoryInfo(".storage");
+			string exportFileName = $@"{storageDirectory.FullName}\{_segment.Name}-{region.Name}.png";
 			// TODO : convince something to give me data
-			// The WorldGraphicsScreen has a _renderTarget with a SavePNG method. I've hooked this as a WorldGraphisScreen.GetPNG(filename)
-			// I can't figure out how to create a new screen or render target. I could probably make a whole new window, with dimensions that are acceptable and export from that, but it seems like not the right way
+			RegionPresentationTarget export = new()
+			{
+				Region = region,
+				Width = width,
+				Height= height
+			};
+			export.Initialize();
+			export.WorldScreen.ToWorldTile(left, top);
+			export.Update(TimeSpan.Zero);
+			export.WorldScreen.GetPNG(exportFileName);
+			//That gives me a 1x1 white pixel. I seem to be missing a rendering pass. How do I trigger one?
 		}
 		public void ShiftRegion(object o)
 		{
