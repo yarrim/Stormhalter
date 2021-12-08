@@ -576,14 +576,54 @@ namespace Kesmai.WorldForge
 				return bounds;
 		}
 
-		public void GetPNG(string outputPath)
+		public void GetPNG(UI.Documents.RegionDocument.ExportRegionRequest message)
         {
-			var outputfile = System.IO.File.OpenWrite(outputPath);
-			RenderContext r = new(this.GraphicsService);
-			r.PresentationTarget = _presentationTarget;
-			this.Render(r);
+			/*
+			//this stuff works, but takes 2 passes: the first pass sets the presentation target to the right dimensions, but it doesn't take effect until the gameloop does something
+			// second pass renders with the right camera position and dimentions and exports the image.
+			var file = new System.IO.FileInfo(message.FileName);
+			if (file.Exists)
+				file.Delete();
+			var outputfile = System.IO.File.OpenWrite(message.FileName);
+			CameraLocation = new Vector2F(message.Left, message.Top);
+			_presentationTarget.Width = message.Width;
+			_presentationTarget.Height = message.Height;
+			//OnSizeChanged(message.Width, message.Height); // this will set the rendertarget correctly, I just need to force it to draw.
+			
+			var graphicsService = ServiceLocator.Current.GetInstance<IGraphicsService>();
+			if (graphicsService is not GraphicsManager graphicsManager)
+				return;
+			graphicsManager.Render(_presentationTarget);
 			_renderTarget.SaveAsPng(outputfile, _renderTarget.Width, _renderTarget.Height);
-			//arg. So close. how do I get a correctly sized render? I'm getting a 1x1 px view. It used to be white, though, so I think I'm getting somewhere.
+			//_presentationTarget.Width = double.NaN; // can't clean up the dimensions, or the game loop won't set them right for the next pass
+			//_presentationTarget.Height = double.NaN;
+			*/
+
+			var file = new System.IO.FileInfo(message.FileName);
+			if (file.Exists)
+				file.Delete();
+			var outputfile = System.IO.File.OpenWrite(message.FileName);
+			CameraLocation = new Vector2F(message.Left, message.Top);
+			_presentationTarget.Width = message.Width;
+			_presentationTarget.Height = message.Height;
+			var graphicsService = ServiceLocator.Current.GetInstance<IGraphicsService>();
+			if (graphicsService is not GraphicsManager graphicsManager)
+				return;
+			_renderTarget = new RenderTarget2D(graphicsService.GraphicsDevice, message.Width, message.Height);
+			var r = new RenderContext(graphicsService);
+			r.SetPresentationTarget(_presentationTarget as PresentationTarget);
+			if (r.PresentationTarget is null)
+				return;
+			r.RenderTarget = _renderTarget;
+			OnRender(r);
+			//graphicsManager.Render(_presentationTarget);
+			
+			_renderTarget.SaveAsPng(outputfile, _renderTarget.Width, _renderTarget.Height);
+
+			//_presentationTarget.Width = double.NaN; // can't clean up the dimensions, or the game loop won't set them right for the next pass
+			//_presentationTarget.Height = double.NaN;
+			outputfile.Close();
+			outputfile.Dispose();
 		}
 
 		protected override void OnRender(RenderContext context)
@@ -864,9 +904,11 @@ namespace Kesmai.WorldForge
 			var services = ServiceLocator.Current;
 			var graphicsService = services.GetInstance<IGraphicsService>();
 
-			width = Math.Max(1, Math.Min(width, 4096));
+			//width = Math.Max(1, Math.Min(width, 4096));
+			//height = Math.Max(1, Math.Min(height, 16384));
+			width = Math.Max(1, Math.Min(width, 16384));
 			height = Math.Max(1, Math.Min(height, 16384));
-			
+
 			if (_uiScreen != null)
 			{
 				_uiScreen.Width = width;

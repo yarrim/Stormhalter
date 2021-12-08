@@ -645,19 +645,20 @@ namespace Kesmai.WorldForge.Editor
         {
 			if (o is not SegmentRegion region)
 				return;
-			// TODO : Find bounds of region
-			// simple: get left-most, top-most, etc tile and figure out size
-			int left = region.GetTiles().Min(t => t.X);
-			int right = region.GetTiles().Max(t => t.X);
-			int top = region.GetTiles().Min(t => t.Y);
-			int bottom = region.GetTiles().Max(t => t.Y);
+			// Find bounds of region. Simple: get left-most, top-most, etc tile and figure out size 
+			// But... this sometimes returns strange results. Kes Lockers has a -7, -1?
+			int left = region.GetTiles().OrderBy(t => t.X).FirstOrDefault().X -1;
+			int right = region.GetTiles().OrderBy(t => t.X).LastOrDefault().X +1;
+			int top = region.GetTiles().OrderBy(t => t.Y).FirstOrDefault().Y -1;
+			int bottom = region.GetTiles().OrderBy(t => t.Y).LastOrDefault().Y +1;
 			int width = (right - left) * UnitSize;
 			int height = (bottom - top) * UnitSize;
 			// TODO : file picker for target output
-			// or just dump to .storage with a file name pattern: <segment>-<region>.png
 			var storageDirectory = new DirectoryInfo(".storage");
 			string exportFileName = $@"{storageDirectory.FullName}\{_segment.Name}-{region.Name}.png";
 			// TODO : convince something to give me data
+			///*
+			// building a brand new worldscreen?
 			RegionPresentationTarget export = new()
 			{
 				Region = region,
@@ -665,10 +666,12 @@ namespace Kesmai.WorldForge.Editor
 				Height= height
 			};
 			export.Initialize();
-			export.WorldScreen.ToWorldTile(left, top);
 			export.Update(TimeSpan.Zero);
-			export.WorldScreen.GetPNG(exportFileName);
+
+			export.WorldScreen.GetPNG(new RegionDocument.ExportRegionRequest(exportFileName, region, width, height, top, left));
 			//That gives me a 1x1 white pixel. I seem to be missing a rendering pass. How do I trigger one?
+			///
+			//WeakReferenceMessenger.Default.Send(new RegionDocument.ExportRegionRequest(exportFileName, region, width, height, top, left));
 		}
 		public void ShiftRegion(object o)
 		{

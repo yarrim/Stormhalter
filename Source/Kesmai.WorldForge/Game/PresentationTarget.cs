@@ -104,9 +104,11 @@ namespace Kesmai.WorldForge
 		
 		protected PresentationTarget()
 		{
-			MaxWidth = 4096;
+			//MaxWidth = 4096;
+			//MaxHeight = 16384;
+			MaxWidth = 16384;
 			MaxHeight = 16384;
-			
+
 			Loaded += OnLoaded;
 			Unloaded += OnUnloaded;
 
@@ -122,7 +124,10 @@ namespace Kesmai.WorldForge
 			_uiManager = new WpfUIManager(_inputManager);
 			
 			_worldScreen = CreateGraphicsScreen(graphicsService);
-			_worldScreen.OnSizeChanged((int)ActualWidth, (int)ActualHeight);
+			if ((int)ActualHeight!=0)
+				_worldScreen.OnSizeChanged((int)ActualWidth, (int)ActualHeight);
+			else
+				_worldScreen.OnSizeChanged((int)Width, (int)Height);
 			_worldScreen.Initialize();
 
 			graphicsService.Screens.Add(_worldScreen);
