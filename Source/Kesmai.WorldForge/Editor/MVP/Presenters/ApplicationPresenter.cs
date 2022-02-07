@@ -14,6 +14,7 @@ using Kesmai.WorldForge.MVP;
 using Kesmai.WorldForge.Roslyn;
 using Kesmai.WorldForge.UI;
 using Kesmai.WorldForge.UI.Documents;
+using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.Toolkit.Mvvm.ComponentModel;
 using Microsoft.Toolkit.Mvvm.Input;
@@ -664,12 +665,39 @@ namespace Kesmai.WorldForge.Editor
 
 		private bool CheckScriptSyntax() //Enumerate all script segments and verify that they pass syntax checks
 		{
+			// Setup Semantic Model compilation
+			var segmentRequest = WeakReferenceMessenger.Default.Send<Editor.GetActiveSegmentRequestMessage>();
+			var segment = segmentRequest.Response;
+
+			var references = new MetadataReference[]
+			{
+					MetadataReference.CreateFromFile(typeof(object).Assembly.Location),
+					MetadataReference.CreateFromFile(typeof(Enumerable).Assembly.Location),
+					MetadataReference.CreateFromImage(Core.ScriptingData),
+			};
+
+			var resolver = new Roslyn.CustomResolver(segment);
+
+			var parseOptions = new CSharpParseOptions(
+				kind: SourceCodeKind.Script,
+				languageVersion: LanguageVersion.CSharp8
+			);
+
+			var compilation = CSharpCompilation.Create("SyntaxChecking")
+					.WithOptions(new CSharpCompilationOptions(Microsoft.CodeAnalysis.OutputKind.DynamicallyLinkedLibrary)
+						.WithScriptClassName("WorldForge")
+						.WithSourceReferenceResolver(resolver))
+					.WithReferences(references);
+
+			var usings = "#load \"WorldForge\"\nusing System; using System.Threading; using System.IO; using System.Collections.Generic;";
+
 			//Segment code:
-			var syntaxErrors = CSharpSyntaxTree.ParseText(Segment.Internal.Blocks[1]).GetDiagnostics();
-			if (syntaxErrors.Count()>0)
-            {
-				var errorList = String.Join('\n', syntaxErrors.Take(3).Select(err => (err.Location.GetLineSpan().StartLinePosition.Line+2) + ":" + err.GetMessage()));
-				if (syntaxErrors.Count() > 3)
+			var syntaxTree = CSharpSyntaxTree.ParseText(usings + "public class Segment{" + Segment.Internal.Blocks[1] + "}", parseOptions);
+			var semanticErrors = compilation.Clone().AddSyntaxTrees(syntaxTree).GetSemanticModel(syntaxTree).GetDiagnostics().Where(d => d.Id != "CS8019");
+			if (semanticErrors.Count() > 0)
+			{
+				var errorList = String.Join('\n', semanticErrors.Take(3).Select(err => (err.Location.GetLineSpan().StartLinePosition.Line + 2) + ":" + err.GetMessage()));
+				if (semanticErrors.Count() > 3)
 					errorList += "\n...";
 				var messageResult = MessageBox.Show($"Segment code has syntax errors.\nDo you wish to continue?\n\n{errorList}", "Syntax Errors in scripts", MessageBoxButton.YesNo);
 				if (messageResult == MessageBoxResult.No)
@@ -681,14 +709,22 @@ namespace Kesmai.WorldForge.Editor
 
 			//Entity scripts:
 			foreach (Entity entity in Segment.Entities)
-            {
-				foreach (Scripting.Script script in entity.Scripts.Where(s=>s.IsEnabled))
-                {
-					syntaxErrors = CSharpSyntaxTree.ParseText("void OnSpawn(){" + script.Blocks[1] + "}").GetDiagnostics();
-					if (syntaxErrors.Count() > 0)
+			{
+				foreach (Scripting.Script script in entity.Scripts.Where(s => s.IsEnabled))
+				{
+					String wrapper = "";
+					switch (script.Name)
 					{
-						var errorList = String.Join('\n', syntaxErrors.Take(3).Select(err => (err.Location.GetLineSpan().StartLinePosition.Line + 3) + ":" + err.GetMessage()));
-						if (syntaxErrors.Count() > 3)
+						case "OnSpawn": wrapper = "CreatureEntity OnSpawn(){"; break;
+						case "OnDeath": wrapper = "void OnDeath(MobileEntity source, MobileEntity killer){"; break;
+						case "OnIncomingPlayer": wrapper = "void OnIncomingPlayer(MobileEntity source, PlayerEntity player){"; break;
+					}
+					syntaxTree = CSharpSyntaxTree.ParseText(usings + wrapper + script.Blocks[1] + "}", parseOptions);
+					semanticErrors = compilation.Clone().AddSyntaxTrees(syntaxTree).GetSemanticModel(syntaxTree).GetDiagnostics().Where(d => d.Id != "CS8019");
+					if (semanticErrors.Count() > 0)
+					{
+						var errorList = String.Join('\n', semanticErrors.Take(3).Select(err => (err.Location.GetLineSpan().StartLinePosition.Line + 3) + ":" + err.GetMessage()));
+						if (semanticErrors.Count() > 3)
 							errorList += "\n...";
 						var messageResult = MessageBox.Show($"Entity '{entity.Name}' has syntax errors in script '{script.Name}'.\nDo you wish to continue?\n\n{errorList}", "Syntax Errors in scripts", MessageBoxButton.YesNo);
 						if (messageResult == MessageBoxResult.No)
@@ -703,7 +739,7 @@ namespace Kesmai.WorldForge.Editor
 			//Entity duplicate name check
 			var entityDuplicates = Segment.Entities.GroupBy(e => e.Name, StringComparer.InvariantCultureIgnoreCase).Where(g => g.Count() > 1);
 			foreach (var duplicate in entityDuplicates)
-            {
+			{
 				var messageResult = MessageBox.Show($"Entity '{duplicate.Key}' has {duplicate.Count()} definitions.\nDo you wish to continue?", "Duplicate Entities found", MessageBoxButton.YesNo);
 				if (messageResult == MessageBoxResult.No)
 				{
@@ -715,19 +751,26 @@ namespace Kesmai.WorldForge.Editor
 
 			//Spawner scripts:
 			foreach (LocationSpawner spawner in Segment.Spawns.Location)
-            {
-				foreach (Scripting.Script script in spawner.Scripts.Where(script=>script.IsEnabled))
-                {
-					syntaxErrors = CSharpSyntaxTree.ParseText("void OnSpawn(){" + script.Blocks[1] + "}").GetDiagnostics();
-					if (syntaxErrors.Count() > 0)
+			{
+				foreach (Scripting.Script script in spawner.Scripts.Where(script => script.IsEnabled))
+				{
+					String wrapper = "";
+					switch (script.Name)
 					{
-						var errorList = String.Join('\n', syntaxErrors.Take(3).Select(err => (err.Location.GetLineSpan().StartLinePosition.Line + 3) + ":" + err.GetMessage()));
-						if (syntaxErrors.Count() > 3)
+						case "OnAfterSpawn": wrapper = "void OnAfterSpawn(Spawner spawner, MobileEntity spawn){"; break;
+						case "OnBeforeSpawn": wrapper = "void OnBeforeSpawn(Spawner spawner){"; break;
+					}
+					syntaxTree = CSharpSyntaxTree.ParseText(usings + wrapper + script.Blocks[1] + "}", parseOptions);
+					semanticErrors = compilation.Clone().AddSyntaxTrees(syntaxTree).GetSemanticModel(syntaxTree).GetDiagnostics().Where(d => d.Id != "CS8019");
+					if (semanticErrors.Count() > 0)
+					{
+						var errorList = String.Join('\n', semanticErrors.Take(3).Select(err => (err.Location.GetLineSpan().StartLinePosition.Line + 3) + ":" + err.GetMessage()));
+						if (semanticErrors.Count() > 3)
 							errorList += "\n...";
 						var messageResult = MessageBox.Show($"Location Spawner '{spawner.Name}' has syntax errors in script '{script.Name}'.\nDo you wish to continue?\n\n{errorList}", "Syntax Errors in scripts", MessageBoxButton.YesNo);
 						if (messageResult == MessageBoxResult.No)
 						{
-							
+
 							ActiveDocument = Documents.Where(d => d is SpawnsViewModel).FirstOrDefault() as SpawnsViewModel;
 							(ActiveDocument as SpawnsViewModel).SelectedLocationSpawner = spawner;
 							WeakReferenceMessenger.Default.Send(spawner as Spawner);
@@ -735,7 +778,7 @@ namespace Kesmai.WorldForge.Editor
 						}
 					}
 				}
-            }
+			}
 			//Spawner duplicate name checks
 			var locationSpawnerDuplicates = Segment.Spawns.Location.GroupBy(e => e.Name, StringComparer.InvariantCultureIgnoreCase).Where(g => g.Count() > 1);
 			foreach (var duplicate in locationSpawnerDuplicates)
@@ -764,27 +807,29 @@ namespace Kesmai.WorldForge.Editor
 
 			//Treasure scripts:
 			foreach (SegmentTreasure treasurePool in Segment.Treasures)
-            {
+			{
 				foreach (TreasureEntry entry in treasurePool.Entries)
-                {
-					foreach (Scripting.Script script in entry.Scripts.Where(s=>s.IsEnabled))
-                    {
-						syntaxErrors = CSharpSyntaxTree.ParseText("void OnCreate(){" + script.Blocks[1] + "}").GetDiagnostics();
-						if (syntaxErrors.Count() > 0)
+				{
+					foreach (Scripting.Script script in entry.Scripts.Where(s => s.IsEnabled))
+					{
+						syntaxTree = CSharpSyntaxTree.ParseText(usings + "ItemEntity OnCreate(MobileEntity from, Container container){" + script.Blocks[1] + "}", parseOptions);
+						semanticErrors = compilation.Clone().AddSyntaxTrees(syntaxTree).GetSemanticModel(syntaxTree).GetDiagnostics().Where(d => d.Id != "CS8019");
+						if (semanticErrors.Count() > 0)
 						{
-							var errorList = String.Join('\n', syntaxErrors.Take(3).Select(err => (err.Location.GetLineSpan().StartLinePosition.Line + 3) + ":" + err.GetMessage()));
-							if (syntaxErrors.Count() > 3)
+							var errorList = String.Join('\n', semanticErrors.Take(3).Select(err => (err.Location.GetLineSpan().StartLinePosition.Line + 3) + ":" + err.GetMessage()));
+							if (semanticErrors.Count() > 3)
 								errorList += "\n...";
-							var messageResult = MessageBox.Show($"Treasure '{treasurePool.Name}' has syntax errors in script '{treasurePool.Entries.IndexOf(entry)+1}'.\nDo you wish to continue?\n\n{errorList}", "Syntax Errors in scripts", MessageBoxButton.YesNo);
-							if (messageResult == MessageBoxResult.No) {
+							var messageResult = MessageBox.Show($"Treasure '{treasurePool.Name}' has syntax errors in script '{treasurePool.Entries.IndexOf(entry) + 1}'.\nDo you wish to continue?\n\n{errorList}", "Syntax Errors in scripts", MessageBoxButton.YesNo);
+							if (messageResult == MessageBoxResult.No)
+							{
 								ActiveDocument = Documents.Where(d => d is TreasuresViewModel).FirstOrDefault() as TreasuresViewModel;
 								(ActiveDocument as TreasuresViewModel).SelectedTreasure = treasurePool;
 								return false;
 							}
 						}
 					}
-                }
-            }
+				}
+			}
 			//Treasure duplicate name check
 			var treasureDuplicates = Segment.Treasures.GroupBy(e => e.Name, StringComparer.InvariantCultureIgnoreCase).Where(g => g.Count() > 1);
 			foreach (var duplicate in treasureDuplicates)
@@ -824,10 +869,8 @@ namespace Kesmai.WorldForge.Editor
 				}
 			}
 
-
-
 			return true;
-        }
+		}
 
 		private void CreateRegion()
 		{
