@@ -11,6 +11,7 @@ using DigitalRune.Mathematics.Algebra;
 using DigitalRune.ServiceLocation;
 using Kesmai.WorldForge.Editor;
 using Kesmai.WorldForge.Models;
+using Kesmai.WorldForge.Windows;
 using Microsoft.Toolkit.Mvvm.Messaging;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
@@ -212,6 +213,7 @@ namespace Kesmai.WorldForge
 		private PresentationTarget _presentationTarget;
 		protected UIScreen _uiScreen;
 		private ContextMenu _contextMenu;
+		private ReplaceWindow _replaceWindow;
 		protected BitmapFont _font;
 		private List<MenuItem> _pointContextItems = new List<MenuItem>();
 		private List<MenuItem> _selectionContextItems = new List<MenuItem>();
@@ -324,6 +326,7 @@ namespace Kesmai.WorldForge
 			var configureTeleporterMenuItem = new MenuItem() { Title = "Set as Teleporter Destination..", IsVisible = false };
 			var cancelConfigureTeleporterMenuItem = new MenuItem() { Title = "Cancel", IsVisible = false };
 			var configureThisTeleporterMenuItem = new MenuItem() { Title = "Choose a Destination..", IsVisible = false };
+			var replaceWindow = new MenuItem() { Title = "Replace...", IsVisible = true };
 
 
 			createSpawnMenuItem.Click += CreateLocationSpawner;
@@ -335,6 +338,16 @@ namespace Kesmai.WorldForge
 			configureTeleporterMenuItem.Click += ConfigureTeleporter;
 			cancelConfigureTeleporterMenuItem.Click += (o, e) => { _presenter.ConfiguringTeleporter = null; };
 			configureThisTeleporterMenuItem.Click += SetTeleporterAsConfiguring;
+			replaceWindow.Click += (o, e) =>
+			{
+				if (_replaceWindow == null)
+					_replaceWindow = new ReplaceWindow(_presentationTarget.Region, this);
+				if (!_replaceWindow.IsActive)
+				{
+					_replaceWindow.Show(UI);
+					_replaceWindow.Center();
+				}
+			};
 
 			_contextMenu.Items.Add(createSpawnMenuItem);
 			_contextMenu.Items.Add(createLocationMenuItem);
@@ -345,6 +358,7 @@ namespace Kesmai.WorldForge
 			_contextMenu.Items.Add(configureTeleporterMenuItem);
 			_contextMenu.Items.Add(cancelConfigureTeleporterMenuItem);
 			_contextMenu.Items.Add(configureThisTeleporterMenuItem);
+			_contextMenu.Items.Add(replaceWindow);
 
 			_pointContextItems.Add(createSpawnMenuItem);
 			_pointContextItems.Add(createLocationMenuItem);
@@ -355,6 +369,8 @@ namespace Kesmai.WorldForge
 			_teleporterDestinationContextItems.Add(configureTeleporterMenuItem);
 			_teleporterDestinationContextItems.Add(cancelConfigureTeleporterMenuItem);
 			_teleporterSourceContextItems.Add(configureThisTeleporterMenuItem);
+
+
 
 			uiService.Screens.Add(_uiScreen);
 
@@ -709,6 +725,16 @@ namespace Kesmai.WorldForge
 						}
 					}
 				}
+			}
+
+			if ((inputService.IsDown(Keys.LeftControl) || inputService.IsDown(Keys.RightControl)) && inputService.IsDown(Keys.R)){ // Ctrl-R summons the Replace Window
+				if (_replaceWindow == null)
+					_replaceWindow = new ReplaceWindow(region, this);
+				if (!_replaceWindow.IsActive)
+				{
+					_replaceWindow.Show(UI);
+					_replaceWindow.Center();
+				}				
 			}
 		}
 
